@@ -40,7 +40,7 @@ $specialPageAliases['bs'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'WhosOnline' => array( 'Wer ist online' ),
+	'WhosOnline' => array( 'Wer_ist_online' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -105,7 +105,7 @@ $specialPageAliases['hu'] = array(
 
 /** Interlingua (Interlingua) */
 $specialPageAliases['ia'] = array(
-	'WhosOnline' => array( 'Qui es in linea' ),
+	'WhosOnline' => array( 'Qui_es_in_linea' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
@@ -155,7 +155,7 @@ $specialPageAliases['mk'] = array(
 
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
-	'WhosOnline' => array( 'ആരൊക്കെ ഓൺലൈൻ' ),
+	'WhosOnline' => array( 'ആരൊക്കെ_ഓൺലൈൻ' ),
 );
 
 /** Marathi (मराठी) */
