@@ -62,10 +62,14 @@ function wfWhosOnline_update_data() {
 // Register database operations
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'wfWhosOnlineCheckSchema';
 
-function wfWhosOnlineCheckSchema() {
-	global $wgExtNewTables;
-	$wgExtNewTables[] = array( 'online',
-		dirname( __FILE__  ) . '/whosonline.sql' );
-	// Continue
+function wfWhosOnlineCheckSchema( $updater = null ) {
+	if ( $updater === null ) {
+		global $wgExtNewTables;
+		$wgExtNewTables[] = array( 'online',
+			dirname( __FILE__  ) . '/whosonline.sql' );
+	} else {
+		$updater->addExtensionUpdate( array( 'addTable', 'online',
+			dirname( __FILE__  ) . '/whosonline.sql', true ) );
+	}
 	return true;
 }
