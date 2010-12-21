@@ -115,6 +115,13 @@ $messages['bn'] = array(
 	'whosonline-desc' => 'যে সকল ব্যবহারকারী এ মুহূর্তে অনলাইনে লগ-ইন বা বেনামী অবস্থায়  উপস্থিত আছেন তাদের [[Special:WhosOnline|একটি তালিকা]] দেখাও',
 );
 
+/** Tibetan (བོད་ཡིག)
+ * @author Freeyak
+ */
+$messages['bo'] = array(
+	'whosonline' => 'དྲ་སྟེང་དུ་གནས་པ།',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  */
