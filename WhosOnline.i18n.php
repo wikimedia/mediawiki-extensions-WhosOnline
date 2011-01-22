@@ -89,7 +89,7 @@ $messages['bar'] = array(
 	'whosonline-desc' => 'Zoagt [[Special:WhosOnline|a Listn]] vu de eigloggtn und vu de anonymen Benutza ãu, de momentan online san',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -537,7 +537,7 @@ $messages['sl'] = array(
 	'whosonline-desc' => 'Prikaže [[Special:WhosOnline|seznam]] prijavljenih in brezimnih uporabnikov, ki so trenutno na strani',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -545,7 +545,7 @@ $messages['sr-ec'] = array(
 	'whosonline-desc' => 'Приказује [[Special:WhosOnline|списак]] улогованих и анонимних корисника, који су тренутно присутни',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
