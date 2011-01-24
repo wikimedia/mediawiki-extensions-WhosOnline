@@ -642,10 +642,11 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'whosonline' => '誰正在線',
-	'whosonline-desc' => '顯示現時在線的登入與匿名用戶的[[Special:WhosOnline列表]]',
+	'whosonline' => '誰正在線上',
+	'whosonline-desc' => '顯示目前在線上的登入與匿名用戶的[[Special:WhosOnline|列表]]',
 );
 
