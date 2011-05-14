@@ -70,7 +70,7 @@ $specialPageAliases['fi'] = array(
 
 /** French (Français) */
 $specialPageAliases['fr'] = array(
-	'WhosOnline' => array( 'Qui est en ligne', 'QuiEstEnLigne' ),
+	'WhosOnline' => array( 'Qui_est_en_ligne', 'QuiEstEnLigne' ),
 );
 
 /** Franco-Provençal (Arpetan) */
@@ -80,7 +80,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'WhosOnline' => array( 'Quen está en liña' ),
+	'WhosOnline' => array( 'Quen_está_en_liña' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -98,9 +98,14 @@ $specialPageAliases['hsb'] = array(
 	'WhosOnline' => array( 'Štó je online' ),
 );
 
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'WhosOnline' => array( 'KiyèsKiAnliy' ),
+);
+
 /** Hungarian (Magyar) */
 $specialPageAliases['hu'] = array(
-	'WhosOnline' => array( 'Ki van online' ),
+	'WhosOnline' => array( 'Ki_van_online' ),
 );
 
 /** Interlingua (Interlingua) */
@@ -133,7 +138,7 @@ $specialPageAliases['ksh'] = array(
 	'WhosOnline' => array( 'Wä es online' ),
 );
 
-/** Cornish (Kernewek) */
+/** Cornish (Kernowek) */
 $specialPageAliases['kw'] = array(
 	'WhosOnline' => array( 'PiwYwWarlinen' ),
 );
@@ -175,12 +180,12 @@ $specialPageAliases['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
-	'WhosOnline' => array( 'Kven er pålogga' ),
+	'WhosOnline' => array( 'Kven_er_pålogga' ),
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
 $specialPageAliases['no'] = array(
-	'WhosOnline' => array( 'Hvem er pålogget' ),
+	'WhosOnline' => array( 'Hvem_er_pålogget' ),
 );
 
 /** Occitan (Occitan) */
@@ -230,7 +235,7 @@ $specialPageAliases['su'] = array(
 
 /** Swedish (Svenska) */
 $specialPageAliases['sv'] = array(
-	'WhosOnline' => array( 'Vem är online?' ),
+	'WhosOnline' => array( 'Vem_är_online?' ),
 );
 
 /** Swahili (Kiswahili) */
