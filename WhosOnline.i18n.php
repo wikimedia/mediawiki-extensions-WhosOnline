@@ -171,11 +171,12 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author MF-Warburg
  */
 $messages['de'] = array(
-	'whosonline' => 'Wer ist online',
-	'whosonline-desc' => 'Zeigt [[Special:WhosOnline|eine Liste]] der eingeloggten und anonymen Benutzer, die im Moment online sind',
+	'whosonline' => 'Wer ist gerade online',
+	'whosonline-desc' => 'Ermöglicht eine [[Special:WhosOnline|Spezialseite]] zur Anzeige der gerade angemeldeten sowie anonymen Benutzer des Wikis',
 );
 
 /** Lower Sorbian (Dolnoserbski)
