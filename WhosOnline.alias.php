@@ -40,7 +40,7 @@ $specialPageAliases['bs'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'WhosOnline' => array( 'Wer_ist_online' ),
+	'WhosOnline' => array( 'Wer_ist_gerade_online' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -75,7 +75,7 @@ $specialPageAliases['fr'] = array(
 
 /** Franco-Provençal (Arpetan) */
 $specialPageAliases['frp'] = array(
-	'WhosOnline' => array( 'Qui est en legne', 'QuiEstEnLegne' ),
+	'WhosOnline' => array( 'Qui_est_en_legne', 'QuiEstEnLegne' ),
 );
 
 /** Galician (Galego) */
