@@ -437,7 +437,7 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'whosonline' => 'Hvem er logget på',
 	'whosonline-desc' => 'Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til',
 );
