@@ -36,7 +36,7 @@ $wgWhosOnlineShowAnons = false;
 $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['SpecialWhosOnline'] = $dir . 'WhosOnlineSpecialPage.php';
 $wgExtensionMessagesFiles['WhosOnline'] = $dir . 'WhosOnline.i18n.php';
-$wgExtensionAliasesFiles['WhosOnline'] = $dir . 'WhosOnline.alias.php';
+$wgExtensionMessagesFiles['WhosOnlineAlias'] = $dir . 'WhosOnline.alias.php';
 $wgSpecialPages['WhosOnline'] = 'SpecialWhosOnline';
 
 $wgHooks['BeforePageDisplay'][] = 'wfWhosOnline_update_data';
