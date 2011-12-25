@@ -168,6 +168,11 @@ $specialPageAliases['mr'] = array(
 	'WhosOnline' => array( 'कोणकोणआलंय' ),
 );
 
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+$specialPageAliases['nb'] = array(
+	'WhosOnline' => array( 'Hvem_er_pålogget' ),
+);
+
 /** Nedersaksisch (Nedersaksisch) */
 $specialPageAliases['nds-nl'] = array(
 	'WhosOnline' => array( 'Wee_is_anwezig' ),
@@ -181,11 +186,6 @@ $specialPageAliases['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'WhosOnline' => array( 'Kven_er_pålogga' ),
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬) */
-$specialPageAliases['nb'] = array(
-	'WhosOnline' => array( 'Hvem_er_pålogget' ),
 );
 
 /** Occitan (Occitan) */
@@ -213,7 +213,7 @@ $specialPageAliases['ro'] = array(
 	'WhosOnline' => array( 'Cine_e_online' ),
 );
 
-/** Sanskrit (संस्कृत) */
+/** Sanskrit (संस्कृतम्) */
 $specialPageAliases['sa'] = array(
 	'WhosOnline' => array( 'अन्यकतम्‌सद्यस्क' ),
 );
@@ -257,8 +257,3 @@ $specialPageAliases['tl'] = array(
 $specialPageAliases['tr'] = array(
 	'WhosOnline' => array( 'KimÇevrimiçi' ),
 );
-
-/**
- * For backwards compatibility with MediaWiki 1.15 and earlier.
- */
-$aliases =& $specialPageAliases;
