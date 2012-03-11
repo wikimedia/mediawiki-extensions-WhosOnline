@@ -348,6 +348,13 @@ $messages['jv'] = array(
 	'whosonline' => "Sapa waé sing ana ing jaringan (''online'')",
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'whosonline' => 'ვინ არის საიტზე',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author វ័ណថារិទ្ធ
  */
@@ -418,6 +425,14 @@ $messages['ms'] = array(
 	'whosonline-desc' => 'Paparkan [[Special:WhosOnline|senarai]] para pengguna log masuk dan tanpa nama yang berada di talian',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'whosonline' => 'Hvem er logget på',
+	'whosonline-desc' => 'Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -432,14 +447,6 @@ $messages['nl'] = array(
 $messages['nn'] = array(
 	'whosonline' => 'Kven er pålogga',
 	'whosonline-desc' => 'Viser [[Special:WhosOnline|ei lista]] over registrerte og anonyme brukarar som er tilkopla',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'whosonline' => 'Hvem er logget på',
-	'whosonline-desc' => 'Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til',
 );
 
 /** Occitan (Occitan)
