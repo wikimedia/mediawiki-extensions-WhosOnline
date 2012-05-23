@@ -85,7 +85,7 @@ $specialPageAliases['gl'] = array(
 
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
-	'WhosOnline' => array( 'Wär isch online?' ),
+	'WhosOnline' => array( 'Wär_isch_online?' ),
 );
 
 /** Hebrew (עברית) */
@@ -140,7 +140,7 @@ $specialPageAliases['ksh'] = array(
 
 /** Cornish (Kernowek) */
 $specialPageAliases['kw'] = array(
-	'WhosOnline' => array( 'PiwYwWarlinen' ),
+	'WhosOnline' => array( 'PiwEusWarlinen' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
@@ -256,4 +256,9 @@ $specialPageAliases['tl'] = array(
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'WhosOnline' => array( 'KimÇevrimiçi' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'WhosOnline' => array( '在线列表' ),
 );
