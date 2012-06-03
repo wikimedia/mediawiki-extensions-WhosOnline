@@ -364,8 +364,10 @@ $messages['km'] = array(
 
 /** Korean (한국어)
  * @author ToePeu
+ * @author 아라
  */
 $messages['ko'] = array(
+	'whosonline' => '접속한 사용자',
 	'whosonline-desc' => '로그인 하거나 하지 않은 지금 접속해 있는 사용자의 [[Special:WhosOnline|목록]]을 보여줍니다.',
 );
 
