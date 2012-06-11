@@ -28,12 +28,12 @@ $specialPageAliases['arz'] = array(
 	'WhosOnline' => array( 'مين_موجود' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'WhosOnline' => array( 'PivZoKevreet' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'WhosOnline' => array( 'KoJeNaMreži' ),
 );
@@ -41,6 +41,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'WhosOnline' => array( 'Wer_ist_gerade_online' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'WhosOnline' => array( 'KamoMiyande' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -53,7 +58,7 @@ $specialPageAliases['dv'] = array(
 	'WhosOnline' => array( 'މިވަގުތު އޮންލައިންގައި ތިބީ' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'WhosOnline' => array( 'QuiénEstáConectado' ),
 );
@@ -63,17 +68,17 @@ $specialPageAliases['fa'] = array(
 	'WhosOnline' => array( 'چه_کسی_برخط_است' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'WhosOnline' => array( 'Ketä_paikalla' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'WhosOnline' => array( 'Qui_est_en_ligne', 'QuiEstEnLigne' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'WhosOnline' => array( 'Qui_est_en_legne', 'QuiEstEnLegne' ),
 );
@@ -103,12 +108,12 @@ $specialPageAliases['ht'] = array(
 	'WhosOnline' => array( 'KiyèsKiAnliy' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'WhosOnline' => array( 'Ki_van_online' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'WhosOnline' => array( 'Qui_es_in_linea' ),
 );
@@ -118,7 +123,7 @@ $specialPageAliases['id'] = array(
 	'WhosOnline' => array( 'Siapa_yang_daring', 'SiapaDaring' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'WhosOnline' => array( 'UtentiOnline' ),
 );
@@ -133,12 +138,17 @@ $specialPageAliases['km'] = array(
 	'WhosOnline' => array( 'អ្នកកំពុងនៅលើបណ្ដាញ' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'WhosOnline' => array( '접속한사용자' ),
+);
+
 /** Colognian (Ripoarisch) */
 $specialPageAliases['ksh'] = array(
 	'WhosOnline' => array( 'Wä es online' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'WhosOnline' => array( 'PiwEusWarlinen' ),
 );
@@ -148,12 +158,12 @@ $specialPageAliases['lb'] = array(
 	'WhosOnline' => array( 'Wien_ass_online' ),
 );
 
-/** Lithuanian (Lietuvių) */
+/** Lithuanian (lietuvių) */
 $specialPageAliases['lt'] = array(
 	'WhosOnline' => array( 'Kas prisijungę' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'WhosOnline' => array( 'КојЕНаЛинија' ),
 );
@@ -168,7 +178,7 @@ $specialPageAliases['mr'] = array(
 	'WhosOnline' => array( 'कोणकोणआलंय' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'WhosOnline' => array( 'Hvem_er_pålogget' ),
 );
@@ -183,17 +193,17 @@ $specialPageAliases['nl'] = array(
 	'WhosOnline' => array( 'WieIsErOnline' ),
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'WhosOnline' => array( 'Kven_er_pålogga' ),
 );
 
-/** Occitan (Occitan) */
+/** Occitan (occitan) */
 $specialPageAliases['oc'] = array(
 	'WhosOnline' => array( 'Qui es en linha', 'QuiEsEnLinha', 'Qual es en linha', 'QualEsEnLinha' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'WhosOnline' => array( 'Kto_jest_online' ),
 );
@@ -208,7 +218,7 @@ $specialPageAliases['qu'] = array(
 	'WhosOnline' => array( 'PitaqYaykusqa' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'WhosOnline' => array( 'Cine_e_online' ),
 );
@@ -218,12 +228,12 @@ $specialPageAliases['sa'] = array(
 	'WhosOnline' => array( 'अन्यकतम्‌सद्यस्क' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'WhosOnline' => array( 'KtoJePrihlásený' ),
 );
 
-/** Slovenian (Slovenščina) */
+/** Slovenian (slovenščina) */
 $specialPageAliases['sl'] = array(
 	'WhosOnline' => array( 'KdoJePrijavljen' ),
 );
@@ -233,7 +243,7 @@ $specialPageAliases['su'] = array(
 	'WhosOnline' => array( 'SahaNuManco' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'WhosOnline' => array( 'Vem_är_online?' ),
 );
@@ -258,7 +268,7 @@ $specialPageAliases['tr'] = array(
 	'WhosOnline' => array( 'KimÇevrimiçi' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'WhosOnline' => array( '在线列表' ),
 );
