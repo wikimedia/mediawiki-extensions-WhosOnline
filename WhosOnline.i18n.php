@@ -57,7 +57,7 @@ $messages['arz'] = array(
 	'whosonline-desc' => 'يعرض [[Special:WhosOnline|لستة]] لليوزرات المتسجلين والمجهولين الموجودين دلوقتى على الشبكة',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  */
 $messages['ast'] = array(
@@ -73,7 +73,7 @@ $messages['avk'] = array(
 	'whosonline-desc' => 'Nedira va [[Special:WhosOnline|vexala]] dem dogluyayan favesik yo isu yoltiskik',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Wertuose
  */
 $messages['az'] = array(
@@ -99,7 +99,7 @@ $messages['be-tarask'] = array(
 	'whosonline-desc' => 'Паказвае [[Special:WhosOnline|сьпіс]] увайшоўшых і ананімных удзельнікаў, якія знаходзяцца он-лайн',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -122,7 +122,7 @@ $messages['bo'] = array(
 	'whosonline' => 'དྲ་སྟེང་དུ་གནས་པ།',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -130,7 +130,7 @@ $messages['br'] = array(
 	'whosonline-desc' => 'Diskouez a ra [[Special:WhosOnline|ur roll]] eus an dud enskrivet hag eus an dud dianav zo enlinenn bremañ.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -138,7 +138,7 @@ $messages['bs'] = array(
 	'whosonline-desc' => 'Prikazuje [[Special:WhosOnline|spisak]] prijavljenih korisnika i anonomnih korisnika koji su trenutno na mreži',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
@@ -154,7 +154,7 @@ $messages['ce'] = array(
 	'whosonline-desc' => 'Гойту [[Special:WhosOnline|муьлха декъашхо хlинц кху чохь ву]]',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -162,7 +162,7 @@ $messages['cs'] = array(
 	'whosonline-desc' => 'Zobrazuje [[Special:WhosOnline|seznam]] přihlášených a anonymních uživatelů, kteří jsou momentálně online',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Tomas Jensen
  */
 $messages['da'] = array(
@@ -203,7 +203,7 @@ $messages['eo'] = array(
 	'whosonline-desc' => 'Montras [[Special:WhosOnline|listo]] de ensalutitaj kaj anonimaj uzantoj nune konektitaj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Sanbec
  */
@@ -212,14 +212,14 @@ $messages['es'] = array(
 	'whosonline-desc' => 'Muestra [[Special:WhosOnline|una lista]] de usuarios identificados y anónimos que están conectados actualmente.',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
 	'whosonline' => 'Online kasutajad',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Kobazulo
  * @author Pi
  */
@@ -228,7 +228,7 @@ $messages['eu'] = array(
 	'whosonline-desc' => 'Une honetan linean dauden erabiltzaile erregistratu eta anonimoen [[Special:WhosOnline|zerrenda]] erakusten du',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Jack Phoenix
  */
@@ -237,7 +237,7 @@ $messages['fi'] = array(
 	'whosonline-desc' => 'Näyttää [[Special:WhosOnline|luettelon]] sisäänkirjautuneista ja anonyymeistä käyttäjistä, jotka ovat paikalla.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author PieRRoMaN
  */
@@ -246,7 +246,7 @@ $messages['fr'] = array(
 	'whosonline-desc' => 'Affiche [[Special:WhosOnline|une liste]] des utilisateurs connectés ou anonymes actuellement en ligne',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -293,7 +293,7 @@ $messages['hsb'] = array(
 	'whosonline-desc' => 'Zwobraznja [[Special:WhosOnline|lisćinu]] přizjewjenych a anonymnych wužiwarjow, kotřiž su runje online',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -301,7 +301,7 @@ $messages['hu'] = array(
 	'whosonline-desc' => '[[Special:WhosOnline|Lista]] a jelenlévő bejelentkezett és névtelen szerkesztőkről',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -317,7 +317,7 @@ $messages['id'] = array(
 	'whosonline-desc' => 'Menampilkan [[Special:WhosOnline|daftar]] pengguna, baik yang yang saat ini telah masuk log maupun yang anonim yang berada dalam jaringan (sedang terhubung)',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -325,7 +325,7 @@ $messages['is'] = array(
 	'whosonline-desc' => 'Sýna [[Special:WhosOnline|lista]] yfir innskráða og óþekkta notendur sem eru tengdir',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  */
 $messages['it'] = array(
@@ -387,7 +387,7 @@ $messages['lb'] = array(
 	'whosonline-desc' => 'Weist [[Special:WhosOnline|eng Lëscht]] vun den ageloggten an anonyme Benotzer déi elo online sinn',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Homo
  */
 $messages['lt'] = array(
@@ -395,7 +395,7 @@ $messages['lt'] = array(
 	'whosonline-desc' => 'Rodo [[Special:WhosOnline|sąrašą]] prisijungusių ir anoniminių naudotojų, kurie dabar naršo',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -443,7 +443,7 @@ $messages['nl'] = array(
 	'whosonline-desc' => '[[Special:WhosOnline|Een lijst]] van actieve aangemelde en anonieme gebruikers',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -452,7 +452,7 @@ $messages['nn'] = array(
 	'whosonline-desc' => 'Viser [[Special:WhosOnline|ei lista]] over registrerte og anonyme brukarar som er tilkopla',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -460,7 +460,7 @@ $messages['oc'] = array(
 	'whosonline-desc' => "Aficha [[Special:WhosOnline|una tièra]] de personas inscrichas e d'utilizaires anonims actualament en linha",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -484,7 +484,7 @@ $messages['ps'] = array(
 	'whosonline-desc' => 'غونډال کې د پرليکه شوو کارنانو او ورکنومو کارنانو  [[Special:WhosOnline|يو لړليک]] ښکاره کوي',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -492,7 +492,7 @@ $messages['pt'] = array(
 	'whosonline-desc' => 'Apresenta [[Special:WhosOnline|uma lista]] de utilizadores autenticados e anónimos que se encontram ligados neste momento',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -500,14 +500,14 @@ $messages['pt-br'] = array(
 	'whosonline-desc' => 'Apresenta [[Special:WhosOnline|uma lista]] de utilizadores autenticados e anônimos que se encontram ligados neste momento',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  */
 $messages['ro'] = array(
 	'whosonline' => 'Cine e online',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -515,7 +515,7 @@ $messages['roa-tara'] = array(
 	'whosonline-desc' => "Face vedè [[Special:WhosOnline|'na liste]] de utinde collegate e anonime ca stonne online jndr'à stu mumende",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -532,7 +532,7 @@ $messages['si'] = array(
 	'whosonline-desc' => 'දැන‍ට යාවත්කාලීක අනාමික පරිශීලකයෝ [[Special:WhosOnline|a list]] පිවිසි ඇති බව පෙන්වයි.',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -540,7 +540,7 @@ $messages['sk'] = array(
 	'whosonline-desc' => 'Zobrazuje [[Special:WhosOnline|zoznam]] prihlásených a anonymných používateľov, ktorí sú momentálne online',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -548,7 +548,7 @@ $messages['sl'] = array(
 	'whosonline-desc' => 'Prikaže [[Special:WhosOnline|seznam]] prijavljenih in brezimnih uporabnikov, ki so trenutno na strani',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -556,7 +556,7 @@ $messages['sr-ec'] = array(
 	'whosonline-desc' => 'Приказује [[Special:WhosOnline|списак]] улогованих и анонимних корисника, који су тренутно присутни',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -572,7 +572,7 @@ $messages['su'] = array(
 	'whosonline-desc' => 'Témbongkeun [[Special:WhosOnline|béréndélan]] pamaké asup log atawa anonim nu keur manco',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  */
 $messages['sv'] = array(
@@ -622,7 +622,7 @@ $messages['tr'] = array(
 	'whosonline-desc' => 'Şuanda çevrimiçi olan anonim ve giriş yapmış kullanıcıların [[Special:WhosOnline|bir listesini]] görüntüler',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -644,7 +644,7 @@ $messages['yue'] = array(
 	'whosonline-desc' => '顯示而家在線嘅登入同匿名用戶嘅[[Special:WhosOnline一覽]]',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -652,7 +652,7 @@ $messages['zh-hans'] = array(
 	'whosonline-desc' => '显示实时在线的登录用户和匿名用户的[[Special:WhosOnline|列表]]。',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
