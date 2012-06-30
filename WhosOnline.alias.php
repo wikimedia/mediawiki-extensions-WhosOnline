@@ -48,7 +48,7 @@ $specialPageAliases['diq'] = array(
 	'WhosOnline' => array( 'KamoMiyande' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'WhosOnline' => array( 'Chto jo online' ),
 );
@@ -83,7 +83,7 @@ $specialPageAliases['frp'] = array(
 	'WhosOnline' => array( 'Qui_est_en_legne', 'QuiEstEnLegne' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'WhosOnline' => array( 'Quen_está_en_liña' ),
 );
@@ -98,7 +98,7 @@ $specialPageAliases['he'] = array(
 	'WhosOnline' => array( 'מי_מחובר' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'WhosOnline' => array( 'Štó je online' ),
 );
