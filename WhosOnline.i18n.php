@@ -89,7 +89,7 @@ $messages['bar'] = array(
 	'whosonline-desc' => 'Zoagt [[Special:WhosOnline|a Listn]] vu de eigloggtn und vu de anonymen Benutza ãu, de momentan online san',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -179,7 +179,7 @@ $messages['de'] = array(
 	'whosonline-desc' => 'Ermöglicht eine [[Special:WhosOnline|Spezialseite]] zur Anzeige der gerade angemeldeten sowie anonymen Benutzer des Wikis',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -260,7 +260,7 @@ $messages['ga'] = array(
 	'whosonline' => 'Cé atá ar líne',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -285,7 +285,7 @@ $messages['he'] = array(
 	'whosonline-desc' => 'הצגת [[Special:WhosOnline|רשימה]] של משתמשים רשומים ואנונימיים המקוונים כעת',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
