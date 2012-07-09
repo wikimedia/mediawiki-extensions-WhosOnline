@@ -260,7 +260,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'WhosOnline' => array( 'Sino ang nasa internet' ),
+	'WhosOnline' => array( 'Sino_ang_nasa_internet' ),
 );
 
 /** Turkish (Türkçe) */
