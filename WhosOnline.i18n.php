@@ -146,7 +146,7 @@ $messages['ca'] = array(
 	'whosonline-desc' => "Mostra [[Special:WhosOnline|una llista]] d'usuaris identificats i anònims que hi ha en línia en aquest moment",
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -427,9 +427,7 @@ $messages['ms'] = array(
 	'whosonline-desc' => 'Paparkan [[Special:WhosOnline|senarai]] para pengguna log masuk dan tanpa nama yang berada di talian',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'whosonline' => 'Hvem er logget på',
 	'whosonline-desc' => 'Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til',
