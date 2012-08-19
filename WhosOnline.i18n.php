@@ -214,9 +214,10 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
-	'whosonline' => 'Online kasutajad',
+	'whosonline' => 'Ühendatud kasutajad',
 );
 
 /** Basque (euskara)
