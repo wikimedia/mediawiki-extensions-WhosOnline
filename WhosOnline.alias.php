@@ -178,7 +178,7 @@ $specialPageAliases['mr'] = array(
 	'WhosOnline' => array( 'कोणकोणआलंय' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'WhosOnline' => array( 'Hvem_er_pålogget' ),
 );
@@ -193,7 +193,7 @@ $specialPageAliases['nl'] = array(
 	'WhosOnline' => array( 'WieIsErOnline' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (norsk (nynorsk)‎) */
 $specialPageAliases['nn'] = array(
 	'WhosOnline' => array( 'Kven_er_pålogga' ),
 );
@@ -268,7 +268,7 @@ $specialPageAliases['tr'] = array(
 	'WhosOnline' => array( 'KimÇevrimiçi' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WhosOnline' => array( '在线列表' ),
 );
