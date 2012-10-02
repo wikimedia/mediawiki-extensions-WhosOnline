@@ -89,7 +89,7 @@ $messages['bar'] = array(
 	'whosonline-desc' => 'Zoagt [[Special:WhosOnline|a Listn]] vu de eigloggtn und vu de anonymen Benutza ãu, de momentan online san',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Red Winged Duck
@@ -428,7 +428,7 @@ $messages['ms'] = array(
 	'whosonline-desc' => 'Paparkan [[Special:WhosOnline|senarai]] para pengguna log masuk dan tanpa nama yang berada di talian',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'whosonline' => 'Hvem er logget på',
 	'whosonline-desc' => 'Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til',
@@ -442,7 +442,7 @@ $messages['nl'] = array(
 	'whosonline-desc' => '[[Special:WhosOnline|Een lijst]] van actieve aangemelde en anonieme gebruikers',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -547,7 +547,7 @@ $messages['sl'] = array(
 	'whosonline-desc' => 'Prikaže [[Special:WhosOnline|seznam]] prijavljenih in brezimnih uporabnikov, ki so trenutno na strani',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -555,7 +555,7 @@ $messages['sr-ec'] = array(
 	'whosonline-desc' => 'Приказује [[Special:WhosOnline|списак]] улогованих и анонимних корисника, који су тренутно присутни',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -643,7 +643,7 @@ $messages['yue'] = array(
 	'whosonline-desc' => '顯示而家在線嘅登入同匿名用戶嘅[[Special:WhosOnline一覽]]',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
@@ -651,7 +651,7 @@ $messages['zh-hans'] = array(
 	'whosonline-desc' => '显示实时在线的登录用户和匿名用户的[[Special:WhosOnline|列表]]。',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wrightbus
  */
