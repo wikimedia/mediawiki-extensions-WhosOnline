@@ -23,7 +23,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'WhosOnline',
-	'version' => '1.3.1',
+	'version' => '1.4.0',
 	'author' => 'Maciej Brencz',
 	'descriptionmsg' => 'whosonline-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WhosOnline',
@@ -33,10 +33,9 @@ $wgExtensionCredits['other'][] = array(
 $wgWhosOnlineShowAnons = false;
 
 // Set up the special page
-$dir = dirname( __FILE__ ) . '/';
-$wgAutoloadClasses['SpecialWhosOnline'] = $dir . 'WhosOnlineSpecialPage.php';
-$wgExtensionMessagesFiles['WhosOnline'] = $dir . 'WhosOnline.i18n.php';
-$wgExtensionMessagesFiles['WhosOnlineAlias'] = $dir . 'WhosOnline.alias.php';
+$wgAutoloadClasses['SpecialWhosOnline'] = __DIR__ . '/WhosOnlineSpecialPage.php';
+$wgMessagesDirs['WhosOnline'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['WhosOnlineAlias'] = __DIR__ . '/WhosOnline.alias.php';
 $wgSpecialPages['WhosOnline'] = 'SpecialWhosOnline';
 
 $wgHooks['BeforePageDisplay'][] = 'wfWhosOnline_update_data';
@@ -71,14 +70,8 @@ function wfWhosOnline_update_data() {
 // Register database operations
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'wfWhosOnlineCheckSchema';
 
-function wfWhosOnlineCheckSchema( $updater = null ) {
-	if ( $updater === null ) {
-		global $wgExtNewTables;
-		$wgExtNewTables[] = array( 'online',
-			dirname( __FILE__  ) . '/whosonline.sql' );
-	} else {
-		$updater->addExtensionUpdate( array( 'addTable', 'online',
-			dirname( __FILE__  ) . '/whosonline.sql', true ) );
-	}
+function wfWhosOnlineCheckSchema( $updater ) {
+	$updater->addExtensionUpdate( array( 'addTable', 'online',
+		__DIR__ . '/whosonline.sql', true ) );
 	return true;
 }

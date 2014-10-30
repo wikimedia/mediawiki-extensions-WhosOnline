@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xiaomingyan"
+		]
+	},
+	"whosonline": "在线用户",
+	"whosonline-desc": "显示实时在线的登录用户和匿名用户的[[Special:WhosOnline|列表]]。"
+}

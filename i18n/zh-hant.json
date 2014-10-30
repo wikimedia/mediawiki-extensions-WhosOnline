@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mark85296341",
+			"Wrightbus"
+		]
+	},
+	"whosonline": "誰正在線上",
+	"whosonline-desc": "顯示目前在線上的登入與匿名用戶的[[Special:WhosOnline|列表]]"
+}
