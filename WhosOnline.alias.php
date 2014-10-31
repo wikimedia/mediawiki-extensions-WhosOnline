@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
@@ -178,12 +179,12 @@ $specialPageAliases['mr'] = array(
 	'WhosOnline' => array( 'कोणकोणआलंय' ),
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk bokmål) */
 $specialPageAliases['nb'] = array(
 	'WhosOnline' => array( 'Hvem_er_pålogget' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Low Saxon (Netherlands) (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'WhosOnline' => array( 'Wee_is_anwezig' ),
 );
@@ -193,7 +194,7 @@ $specialPageAliases['nl'] = array(
 	'WhosOnline' => array( 'WieIsErOnline' ),
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎) */
+/** Norwegian Nynorsk (norsk nynorsk) */
 $specialPageAliases['nn'] = array(
 	'WhosOnline' => array( 'Kven_er_pålogga' ),
 );
