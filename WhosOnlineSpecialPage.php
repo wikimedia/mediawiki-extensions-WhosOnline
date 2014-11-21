@@ -113,7 +113,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 
 		$db = wfGetDB( DB_MASTER );
 		$db->selectDB( $wgDBname );
-		$old = gmdate( 'YmdHis', time() - 3600 );
+		$old = wfTimestamp( TS_MW, time() - 3600 );
 		$db->delete( 'online', array( 'timestamp < "' . $old . '"' ), __METHOD__ );
 
 		$this->setHeaders();
