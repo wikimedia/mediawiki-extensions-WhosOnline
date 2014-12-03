@@ -46,7 +46,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'WhosOnline' => array( 'KamoMiyande' ),
+	'WhosOnline' => array( 'KamTedero' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
