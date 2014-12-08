@@ -75,10 +75,10 @@ class PagerWhosOnline extends IndexPager {
 	function getNavigationBar() {
 		global $wgContLang;
 
-		return wfViewPrevNext(
+		return $this->getLanguage()->viewPrevNext(
+			$wgContLang->specialpage( 'WhosOnline' ),
 			$this->mOffset,
 			$this->mLimit,
-			$wgContLang->specialpage( 'WhosOnline' ),
 			'',
 			$this->countUsersOnline() < ( $this->mLimit + $this->mOffset ) // show next link
 		);
