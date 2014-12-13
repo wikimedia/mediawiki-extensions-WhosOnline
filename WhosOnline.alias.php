@@ -269,6 +269,11 @@ $specialPageAliases['tr'] = array(
 	'WhosOnline' => array( 'KimÇevrimiçi' ),
 );
 
+/** Chinese (中文) */
+$specialPageAliases['zh'] = array(
+	'WhosOnline' => array( '在线列表', '線上列表', '線上清單' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'WhosOnline' => array( '在线列表' ),
