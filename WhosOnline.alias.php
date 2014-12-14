@@ -278,3 +278,8 @@ $specialPageAliases['zh'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'WhosOnline' => array( '在线列表' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'WhosOnline' => array( '誰在線上' ),
+);
