@@ -27,6 +27,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => 'Maciej Brencz',
 	'descriptionmsg' => 'whosonline-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WhosOnline',
+	'license-name' => 'GPL-2.0+',
 );
 
 // Showing anonymous users' IP addresses can be a security threat!
