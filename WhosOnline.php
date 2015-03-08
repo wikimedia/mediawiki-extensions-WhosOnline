@@ -40,30 +40,31 @@ $wgExtensionMessagesFiles['WhosOnlineAlias'] = __DIR__ . '/WhosOnline.alias.php'
 $wgSpecialPages['WhosOnline'] = 'SpecialWhosOnline';
 
 $wgHooks['BeforePageDisplay'][] = 'wfWhosOnline_update_data';
+
 // update online data
 function wfWhosOnline_update_data() {
-	global $wgUser, $wgDBname;
-
-	wfProfileIn( __METHOD__ );
+	global $wgUser;
 
 	// write to DB (use master)
-	$db = wfGetDB( DB_MASTER );
-	$db->selectDB( $wgDBname );
-
+	$dbw = wfGetDB( DB_MASTER );
 	$now = gmdate( 'YmdHis', time() );
 
 	// row to insert to table
 	$row = array(
-		'userid' => $wgUser->getID(),
+		'userid' => $wgUser->getId(),
 		'username' => $wgUser->getName(),
 		'timestamp' => $now
 	);
 
-	$ignore = $db->ignoreErrors( true );
-	$db->insert( 'online', $row, __METHOD__, 'DELAYED' );
-	$db->ignoreErrors( $ignore );
-
-	wfProfileOut( __METHOD__ );
+	$method = __METHOD__;
+	$dbw->onTransactionIdle( function() use ( $dbw, $method, $row ) {
+		$dbw->upsert( 'online',
+			$row,
+			array( array( 'userid', 'username' ) ),
+			array( 'timestamp' => $row['timestamp'] ),
+			$method
+		);
+	} );
 
 	return true;
 }
