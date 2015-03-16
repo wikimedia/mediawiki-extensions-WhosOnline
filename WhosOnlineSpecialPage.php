@@ -21,7 +21,7 @@ class PagerWhosOnline extends IndexPager {
 		return array(
 			'tables'  => array( 'online' ),
 			'fields'  => array( 'username' ),
-			'options' => array( 'ORDER BY' => 'timestamp DESC' ),
+			'options' => array( 'ORDER BY' => 'timestamp DESC', 'GROUP BY' => 'username' ),
 			'conds'   => $wgWhosOnlineShowAnons
 					? array()
 					: array( 'userid != 0' )
@@ -63,7 +63,8 @@ class PagerWhosOnline extends IndexPager {
 			'online',
 			'COUNT(*) AS cnt',
 			'userid != 0',
-			__METHOD__
+			__METHOD__,
+			'GROUP BY username'
 		);
 		$users = (int) $row->cnt;
 
@@ -100,7 +101,8 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 			'online',
 			'COUNT(*) AS cnt',
 			'userid = 0',
-			__METHOD__
+			__METHOD__,
+			'GROUP BY username'
 		);
 		$guests = (int) $row->cnt;
 
