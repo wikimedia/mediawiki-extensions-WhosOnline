@@ -76,10 +76,10 @@ class PagerWhosOnline extends IndexPager {
 		global $wgContLang;
 
 		return $this->getLanguage()->viewPrevNext(
-			$wgContLang->specialpage( 'WhosOnline' ),
+			Title::newFromText( $wgContLang->specialpage( 'WhosOnline' ) ),
 			$this->mOffset,
 			$this->mLimit,
-			'',
+			array(),
 			$this->countUsersOnline() < ( $this->mLimit + $this->mOffset ) // show next link
 		);
 	}
