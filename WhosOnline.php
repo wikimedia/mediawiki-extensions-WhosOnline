@@ -35,6 +35,7 @@ $wgWhosOnlineShowAnons = false;
 
 // Set up the special page
 $wgAutoloadClasses['SpecialWhosOnline'] = __DIR__ . '/WhosOnlineSpecialPage.php';
+$wgAutoloadClasses['PagerWhosOnline'] = __DIR__ . '/WhosOnlineSpecialPage.php';
 $wgMessagesDirs['WhosOnline'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WhosOnlineAlias'] = __DIR__ . '/WhosOnline.alias.php';
 $wgSpecialPages['WhosOnline'] = 'SpecialWhosOnline';
