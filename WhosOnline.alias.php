@@ -29,6 +29,11 @@ $specialPageAliases['arz'] = array(
 	'WhosOnline' => array( 'مين_موجود' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'WhosOnline' => array( 'کَێ_آنلاین_اینت' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'WhosOnline' => array( 'PivZoKevreet' ),
