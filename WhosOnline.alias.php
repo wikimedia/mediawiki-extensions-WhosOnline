@@ -166,7 +166,7 @@ $specialPageAliases['lb'] = array(
 
 /** Lithuanian (lietuvių) */
 $specialPageAliases['lt'] = array(
-	'WhosOnline' => array( 'Kas prisijungę' ),
+	'WhosOnline' => array( 'Kas_prisijungę' ),
 );
 
 /** Macedonian (македонски) */
