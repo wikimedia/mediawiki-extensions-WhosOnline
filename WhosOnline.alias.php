@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'WhosOnline' => array( 'من_متصل' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'WhosOnline' => array( 'مين_موجود' ),
 );
@@ -84,7 +84,7 @@ $specialPageAliases['fr'] = array(
 	'WhosOnline' => array( 'Qui_est_en_ligne', 'QuiEstEnLigne' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'WhosOnline' => array( 'Qui_est_en_legne', 'QuiEstEnLegne' ),
 );
