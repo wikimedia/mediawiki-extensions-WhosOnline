@@ -3,9 +3,10 @@
 		"authors": [
 			"Mark85296341",
 			"Wrightbus",
-			"LNDDYL"
+			"LNDDYL",
+			"Cwlin0416"
 		]
 	},
 	"whosonline": "誰正在線上",
-	"whosonline-desc": "顯示目前在線上的登入與匿名使用者的[[Special:WhosOnline|列表]]"
+	"whosonline-desc": "顯示目前在線上的登入與匿名使用者的[[Special:WhosOnline|清單]]"
 }
