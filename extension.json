@@ -1,0 +1,39 @@
+{
+	"name": "WhosOnline",
+	"version": "1.5.0",
+	"author": [
+		"Maciej Brencz"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:WhosOnline",
+	"descriptionmsg": "whosonline-desc",
+	"type": "specialpage",
+	"config": {
+		"WhosOnlineShowAnons": false
+	},
+	"MessagesDirs": {
+		"WhosOnline": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+		"WhosOnline": "SpecialWhosOnline"
+	},
+	"ExtensionMessagesFiles": {
+		"WhosOnlineAlias": "WhosOnline.alias.php"
+	},
+	"AutoloadClasses": {
+		"WhosOnlineHooks": "WhosOnlineHooks.php",
+		"SpecialWhosOnline": "WhosOnlineSpecialPage.php",
+		"PagerWhosOnline": "WhosOnlineSpecialPage.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"WhosOnlineHooks::onBeforePageDisplay"
+		],
+		"LoadExtensionSchemaUpdates": [
+			"WhosOnlineHooks::onLoadExtensionSchemaUpdates"
+		]
+	},
+	"manifest_version": 1
+}

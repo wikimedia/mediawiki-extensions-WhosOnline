@@ -1,13 +1,15 @@
 <?php
 /**
+ * WhosOnline extension - creates a list of logged-in users & anons currently online
+ * The list can be viewed at Special:WhosOnline
+ *
  * @file
  * @ingroup Extensions
- * @author Maciej Brencz <macbre(at)-spam-wikia.com>
+ * @author Maciej Brencz <macbre(at)-spam-wikia.com> - minor fixes and improvements
+ * @author ChekMate Security Group - original code
+ * @see http://www.chekmate.org/wiki/index.php/MW:_Whos_Online_Extension
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
-
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit( 1 );
-}
 
 class PagerWhosOnline extends IndexPager {
 	function __construct() {
@@ -21,7 +23,10 @@ class PagerWhosOnline extends IndexPager {
 		return array(
 			'tables'  => array( 'online' ),
 			'fields'  => array( 'username' ),
-			'options' => array( 'ORDER BY' => 'timestamp DESC', 'GROUP BY' => 'username' ),
+			'options' => array(
+				'ORDER BY' => 'timestamp DESC',
+				'GROUP BY' => 'username'
+			),
 			'conds'   => $wgWhosOnlineShowAnons
 					? array()
 					: array( 'userid != 0' )
@@ -51,14 +56,12 @@ class PagerWhosOnline extends IndexPager {
 	function formatRow( $row ) {
 		$userPageLink = Title::makeTitle( NS_USER, $row->username )->getFullURL();
 
-		return '<li><a href="' . htmlspecialchars( $userPageLink ) . '">' .
-			htmlspecialchars( $row->username ) . '</a></li>';
+		return '<li><a href="' . htmlspecialchars( $userPageLink, ENT_QUOTES ) . '">' .
+			htmlspecialchars( $row->username, ENT_QUOTES ) . '</a></li>';
 	}
 
 	// extra methods
 	function countUsersOnline() {
-		wfProfileIn( __METHOD__ );
-
 		$row = $this->mDb->selectRow(
 			'online',
 			'COUNT(*) AS cnt',
@@ -67,8 +70,6 @@ class PagerWhosOnline extends IndexPager {
 			'GROUP BY username'
 		);
 		$users = (int) $row->cnt;
-
-		wfProfileOut( __METHOD__ );
 
 		return $users;
 	}
@@ -93,8 +94,6 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 
 	// get list of logged-in users being online
 	protected function getAnonsOnline() {
-		wfProfileIn( __METHOD__ );
-
 		$dbr = wfGetDB( DB_SLAVE );
 
 		$row = $dbr->selectRow(
@@ -106,13 +105,11 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		);
 		$guests = (int) $row->cnt;
 
-		wfProfileOut( __METHOD__ );
-
 		return $guests;
 	}
 
 	public function execute( $para ) {
-		global $wgOut, $wgDBname;
+		global $wgDBname;
 
 		$db = wfGetDB( DB_MASTER );
 		$db->selectDB( $wgDBname );
@@ -144,9 +141,9 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		$body = $pager->getBody();
 
 		if ( $showNavigation ) {
-			$wgOut->addHTML( $pager->getNavigationBar() );
+			$this->getOutput()->addHTML( $pager->getNavigationBar() );
 		}
 
-		$wgOut->addHTML( '<ul>' . $body . '</ul>' );
+		$this->getOutput()->addHTML( '<ul>' . $body . '</ul>' );
 	}
 }
