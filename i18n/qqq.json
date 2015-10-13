@@ -4,5 +4,6 @@
 			"Umherirrender"
 		]
 	},
+	"whosonline": "Used as title of [[Special:WhosOnline]]",
 	"whosonline-desc": "{{desc}}"
 }
