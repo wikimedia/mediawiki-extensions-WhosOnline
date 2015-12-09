@@ -15,7 +15,7 @@
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'WhosOnline',
-	'version' => '1.5.0',
+	'version' => '1.6.0',
 	'author' => 'Maciej Brencz',
 	'descriptionmsg' => 'whosonline-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WhosOnline',
@@ -24,6 +24,9 @@ $wgExtensionCredits['specialpage'][] = array(
 
 // Showing anonymous users' IP addresses can be a security threat!
 $wgWhosOnlineShowAnons = false;
+
+// By default, only show usernames rather than user full names.
+$wgWhosOnlineShowRealName = false;
 
 $wgMessagesDirs['WhosOnline'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WhosOnlineAlias'] = __DIR__ . '/WhosOnline.alias.php';

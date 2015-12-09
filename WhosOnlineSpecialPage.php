@@ -54,10 +54,21 @@ class PagerWhosOnline extends IndexPager {
 	}
 
 	function formatRow( $row ) {
-		$userPageLink = Title::makeTitle( NS_USER, $row->username )->getFullURL();
+		global $wgWhosOnlineShowRealName;
 
+		$userPageLink = Title::makeTitle( NS_USER, $row->username )->getFullURL();
+		$name = $row->username;
+		if ( $wgWhosOnlineShowRealName ) {
+			$user = User::newFromName( $name );
+			if ( $user ) {
+				$realName = $user->getRealName();
+				if ( $realName !== '' ) {
+					$name = $realName;
+				}
+			}
+		}
 		return '<li><a href="' . htmlspecialchars( $userPageLink, ENT_QUOTES ) . '">' .
-			htmlspecialchars( $row->username, ENT_QUOTES ) . '</a></li>';
+			htmlspecialchars( $name, ENT_QUOTES ) . '</a></li>';
 	}
 
 	// extra methods
