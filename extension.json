@@ -1,6 +1,6 @@
 {
 	"name": "WhosOnline",
-	"version": "1.6.0",
+	"version": "1.7.0",
 	"author": [
 		"Maciej Brencz"
 	],
@@ -10,7 +10,8 @@
 	"type": "specialpage",
 	"config": {
 		"WhosOnlineShowAnons": false,
-		"WhosOnlineShowRealName": false
+		"WhosOnlineShowRealName": false,
+		"WhosOnlineTimeout": 3600
 	},
 	"MessagesDirs": {
 		"WhosOnline": [

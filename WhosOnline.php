@@ -15,7 +15,7 @@
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'WhosOnline',
-	'version' => '1.6.0',
+	'version' => '1.7.0',
 	'author' => 'Maciej Brencz',
 	'descriptionmsg' => 'whosonline-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:WhosOnline',
@@ -27,6 +27,9 @@ $wgWhosOnlineShowAnons = false;
 
 // By default, only show usernames rather than user full names.
 $wgWhosOnlineShowRealName = false;
+
+// Timeout before WhosOnline decides a use has gone offline. Default 3600s (1h).
+$wgWhosOnlineTimeout = 3600;
 
 $wgMessagesDirs['WhosOnline'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['WhosOnlineAlias'] = __DIR__ . '/WhosOnline.alias.php';
