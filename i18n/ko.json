@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"ToePeu",
-			"아라"
+			"아라",
+			"Ykhwong"
 		]
 	},
 	"whosonline": "접속한 사용자",
-	"whosonline-desc": "로그인 하거나 하지 않은 지금 접속해 있는 사용자의 [[Special:WhosOnline|목록]]을 보여줍니다."
+	"whosonline-desc": "현재 접속 중인 로그인된 사용자와 익명 사용자의 [[Special:WhosOnline|목록]]을 보여줍니다."
 }
