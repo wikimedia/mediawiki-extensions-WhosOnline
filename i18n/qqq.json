@@ -5,5 +5,5 @@
 		]
 	},
 	"whosonline": "Used as title of [[Special:WhosOnline]]",
-	"whosonline-desc": "{{desc}}"
+	"whosonline-desc": "{{desc|name=WhosOnline|url=https://www.mediawiki.org/wiki/Extension:WhosOnline}}"
 }
