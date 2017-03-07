@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bellayet"
+			"Bellayet",
+			"Aftabuzzaman"
 		]
 	},
 	"whosonline": "অনলাইনে যিনি আছেন",
-	"whosonline-desc": "যে সকল ব্যবহারকারী এ মুহূর্তে অনলাইনে লগ-ইন বা বেনামী অবস্থায়  উপস্থিত আছেন তাদের [[Special:WhosOnline|একটি তালিকা]] দেখাও"
+	"whosonline-desc": "যে সকল ব্যবহারকারী এ মুহূর্তে অনলাইনে প্রবেশকৃত বা বেনামী অবস্থায় উপস্থিত আছেন তাদের [[Special:WhosOnline|একটি তালিকা]] দেখাও"
 }
