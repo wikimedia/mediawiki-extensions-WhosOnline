@@ -105,7 +105,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 
 	// get list of logged-in users being online
 	protected function getAnonsOnline() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		$row = $dbr->selectRow(
 			'online',
