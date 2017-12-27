@@ -38,8 +38,7 @@ class WhosOnlineHooks {
 	}
 
 	public static function onLoadExtensionSchemaUpdates( $updater ) {
-		$updater->addExtensionUpdate( array( 'addTable', 'online',
-			__DIR__ . '/whosonline.sql', true ) );
+		$updater->addExtensionTable( 'online', __DIR__ . '/whosonline.sql' );
 		return true;
 	}
 
