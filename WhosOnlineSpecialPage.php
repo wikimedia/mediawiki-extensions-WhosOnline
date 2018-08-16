@@ -120,7 +120,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 	}
 
 	public function execute( $para ) {
-		global $wgDBname, $wgWhosOnlineTimeout;
+		global $wgWhosOnlineTimeout;
 
 		$timeout = 3600;
 		if ( is_numeric( $wgWhosOnlineTimeout ) ) {
@@ -128,7 +128,6 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		}
 
 		$db = wfGetDB( DB_MASTER );
-		$db->selectDB( $wgDBname );
 		$old = wfTimestamp( TS_MW, time() - $timeout );
 		$db->delete( 'online', array( 'timestamp < "' . $old . '"' ), __METHOD__ );
 
