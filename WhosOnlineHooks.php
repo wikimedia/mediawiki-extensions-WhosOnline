@@ -17,29 +17,26 @@ class WhosOnlineHooks {
 
 		$user = $out->getUser();
 		// row to insert to table
-		$row = array(
+		$row = [
 			'userid' => $user->getId(),
 			'username' => $user->getName(),
 			'timestamp' => $now
-		);
+		];
 
 		$method = __METHOD__;
 		$dbw->onTransactionIdle( function() use ( $dbw, $method, $row ) {
 			$dbw->upsert(
 				'online',
 				$row,
-				array( array( 'userid', 'username' ) ),
-				array( 'timestamp' => $row['timestamp'] ),
+				[ [ 'userid', 'username' ] ],
+				[ 'timestamp' => $row['timestamp'] ],
 				$method
 			);
 		} );
-
-		return true;
 	}
 
 	public static function onLoadExtensionSchemaUpdates( $updater ) {
 		$updater->addExtensionTable( 'online', __DIR__ . '/whosonline.sql' );
-		return true;
 	}
 
 }

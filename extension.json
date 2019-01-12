@@ -30,12 +30,8 @@
 		"PagerWhosOnline": "WhosOnlineSpecialPage.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"WhosOnlineHooks::onBeforePageDisplay"
-		],
-		"LoadExtensionSchemaUpdates": [
-			"WhosOnlineHooks::onLoadExtensionSchemaUpdates"
-		]
+		"BeforePageDisplay": "WhosOnlineHooks::onBeforePageDisplay",
+		"LoadExtensionSchemaUpdates": "WhosOnlineHooks::onLoadExtensionSchemaUpdates"
 	},
 	"manifest_version": 1
 }

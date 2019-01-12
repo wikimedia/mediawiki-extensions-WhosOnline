@@ -20,17 +20,17 @@ class PagerWhosOnline extends IndexPager {
 	function getQueryInfo() {
 		global $wgWhosOnlineShowAnons;
 
-		return array(
-			'tables'  => array( 'online' ),
-			'fields'  => array( 'username' ),
-			'options' => array(
+		return [
+			'tables'  => [ 'online' ],
+			'fields'  => [ 'username' ],
+			'options' => [
 				'ORDER BY' => 'timestamp DESC',
 				'GROUP BY' => 'username'
-			),
+			],
 			'conds'   => $wgWhosOnlineShowAnons
-					? array()
-					: array( 'userid != 0' )
-		);
+					? []
+					: [ 'userid != 0' ]
+		];
 	}
 
 	// use classical LIMIT/OFFSET instead of sorting by table key
@@ -38,8 +38,8 @@ class PagerWhosOnline extends IndexPager {
 		$info = $this->getQueryInfo();
 		$tables = $info['tables'];
 		$fields = $info['fields'];
-		$conds = isset( $info['conds'] ) ? $info['conds'] : array();
-		$options = isset( $info['options'] ) ? $info['options'] : array();
+		$conds = isset( $info['conds'] ) ? $info['conds'] : [];
+		$options = isset( $info['options'] ) ? $info['options'] : [];
 
 		$options['LIMIT']  = intval( $limit );
 		$options['OFFSET'] = intval( $offset );
@@ -80,19 +80,17 @@ class PagerWhosOnline extends IndexPager {
 			__METHOD__,
 			'GROUP BY username'
 		);
-		$users = (int) $row->cnt;
+		$users = (int)$row->cnt;
 
 		return $users;
 	}
 
 	function getNavigationBar() {
-		global $wgContLang;
-
 		return $this->getLanguage()->viewPrevNext(
 			SpecialPage::getTitleFor( 'WhosOnline' ),
 			$this->mOffset,
 			$this->mLimit,
-			array(),
+			[],
 			$this->countUsersOnline() < ( $this->mLimit + $this->mOffset ) // show next link
 		);
 	}
@@ -114,7 +112,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 			__METHOD__,
 			'GROUP BY username'
 		);
-		$guests = (int) $row->cnt;
+		$guests = (int)$row->cnt;
 
 		return $guests;
 	}
@@ -129,7 +127,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 
 		$db = wfGetDB( DB_MASTER );
 		$old = wfTimestamp( TS_MW, time() - $timeout );
-		$db->delete( 'online', array( 'timestamp < "' . $old . '"' ), __METHOD__ );
+		$db->delete( 'online', [ 'timestamp < "' . $old . '"' ], __METHOD__ );
 
 		$this->setHeaders();
 
@@ -146,7 +144,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 					$pager->mLimit = $bit;
 				}
 
-				$m = array();
+				$m = [];
 				if ( preg_match( '/^limit=(\d+)$/', $bit, $m ) ) {
 					$pager->mLimit = intval( $m[1] );
 				}
