@@ -86,12 +86,12 @@ class PagerWhosOnline extends IndexPager {
 	}
 
 	function getNavigationBar() {
-		return $this->getLanguage()->viewPrevNext(
+		return $this->buildPrevNextNavigation(
 			SpecialPage::getTitleFor( 'WhosOnline' ),
 			$this->mOffset,
 			$this->mLimit,
 			[],
-			$this->countUsersOnline() < ( $this->mLimit + $this->mOffset ) // show next link
+			$this->countUsersOnline() < ( $this->mLimit + (int)$this->mOffset ) // show next link
 		);
 	}
 }
