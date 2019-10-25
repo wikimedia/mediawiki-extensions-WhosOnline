@@ -6,14 +6,6 @@
  */
 class PagerWhosOnlineTest extends MediaWikiTestCase {
 
-	protected function setUp() {
-		parent::setUp();
-	}
-
-	protected function tearDown() {
-		parent::tearDown();
-	}
-
 	public function testGetNavigationBar() {
 		$pager = new PagerWhosOnline();
 		$html = $pager->getNavigationBar();
