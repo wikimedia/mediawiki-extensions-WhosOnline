@@ -243,6 +243,16 @@ $specialPageAliases['sl'] = [
 	'WhosOnline' => [ 'KdoJePrijavljen' ],
 ];
 
+/** Serbian Cyrillic (српски (ћирилица)) */
+$specialPageAliases['sr-ec'] = [
+	'WhosOnline' => [ 'КоЈеНаМрежи' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$specialPageAliases['sr-el'] = [
+	'WhosOnline' => [ 'KoJeNaMreži' ],
+];
+
 /** Sundanese (Basa Sunda) */
 $specialPageAliases['su'] = [
 	'WhosOnline' => [ 'SahaNuManco' ],
