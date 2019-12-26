@@ -10,7 +10,6 @@ class PagerWhosOnlineTest extends MediaWikiTestCase {
 		$pager = new PagerWhosOnline();
 		$html = $pager->getNavigationBar();
 
-
 		$this->assertStringStartsWith( 'View (previous', $html );
 
 		preg_match_all( '!<a.*?</a>!', $html, $m, PREG_PATTERN_ORDER );
@@ -27,5 +26,3 @@ class PagerWhosOnlineTest extends MediaWikiTestCase {
 		}
 	}
 }
-
-
