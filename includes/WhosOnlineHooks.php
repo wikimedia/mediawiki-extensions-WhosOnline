@@ -4,7 +4,13 @@
  */
 class WhosOnlineHooks {
 
-	// update online data
+	/**
+	 * Update online data.
+	 *
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
+	 * @throws \ConfigException
+	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		// don't write to the DB if the DB is read-only
 		if ( wfReadOnly() ) {
@@ -24,7 +30,7 @@ class WhosOnlineHooks {
 		];
 
 		$method = __METHOD__;
-		$dbw->onTransactionIdle( function() use ( $dbw, $method, $row ) {
+		$dbw->onTransactionIdle( function () use ( $dbw, $method, $row ) {
 			$dbw->upsert(
 				'online',
 				$row,
@@ -35,8 +41,11 @@ class WhosOnlineHooks {
 		} );
 	}
 
+	/**
+	 * @param DatabaseUpdater $updater
+	 */
 	public static function onLoadExtensionSchemaUpdates( $updater ) {
-		$updater->addExtensionTable( 'online', __DIR__ . '/whosonline.sql' );
+		$updater->addExtensionTable( 'online', __DIR__ . '/../whosonline.sql' );
 	}
 
 }

@@ -25,9 +25,9 @@
 		"WhosOnlineAlias": "WhosOnline.alias.php"
 	},
 	"AutoloadClasses": {
-		"WhosOnlineHooks": "WhosOnlineHooks.php",
-		"SpecialWhosOnline": "WhosOnlineSpecialPage.php",
-		"PagerWhosOnline": "WhosOnlineSpecialPage.php"
+		"WhosOnlineHooks": "includes/WhosOnlineHooks.php",
+		"SpecialWhosOnline": "includes/specials/SpecialWhosOnline.php",
+		"PagerWhosOnline": "includes/PagerWhosOnline.php"
 	},
 	"Hooks": {
 		"BeforePageDisplay": "WhosOnlineHooks::onBeforePageDisplay",
