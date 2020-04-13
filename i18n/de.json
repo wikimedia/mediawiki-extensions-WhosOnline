@@ -6,5 +6,5 @@
 		]
 	},
 	"whosonline": "Wer ist gerade online",
-	"whosonline-desc": "Ermöglicht eine [[Special:WhosOnline|Spezialseite]] zur Anzeige der gerade angemeldeten sowie anonymen Benutzer des Wikis"
+	"whosonline-desc": "Erweitert das Wiki um eine [[Special:WhosOnline|Spezialseite]] zur Anzeige aktuell angemeldeter sowie anonymer Benutzer"
 }
