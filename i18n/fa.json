@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"FarsiNevis",
 			"Reza1615"
 		]
 	},
-	"whosonline": "هوایز آنلاین",
+	"whosonline": "چه کسی برخط است؟",
 	"whosonline-desc": "نمایش [[Special:WhosOnline|فهرست]] ورود به سامانه و آی‌پی‌های برخط"
 }
