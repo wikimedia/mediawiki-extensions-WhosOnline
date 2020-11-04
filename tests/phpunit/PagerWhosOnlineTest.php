@@ -18,10 +18,10 @@ class PagerWhosOnlineTest extends MediaWikiTestCase {
 		$nums = [ 20, 50, 100, 250, 500 ];
 		$i = 0;
 		foreach ( $links as $a ) {
-			$this->assertContains( 'Special:WhosOnline', $a );
-			$this->assertContains( "limit=$nums[$i]&amp;offset=", $a );
-			$this->assertContains( 'class="mw-numlink"', $a );
-			$this->assertContains( ">$nums[$i]<", $a );
+			$this->assertStringContainsString( 'Special:WhosOnline', $a );
+			$this->assertStringContainsString( "limit=$nums[$i]&amp;offset=", $a );
+			$this->assertStringContainsString( 'class="mw-numlink"', $a );
+			$this->assertStringContainsString( ">$nums[$i]<", $a );
 			$i += 1;
 		}
 	}
