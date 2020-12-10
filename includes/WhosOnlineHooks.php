@@ -30,7 +30,7 @@ class WhosOnlineHooks {
 		];
 
 		$method = __METHOD__;
-		$dbw->onTransactionIdle( function () use ( $dbw, $method, $row ) {
+		$dbw->onTransactionCommitOrIdle( function () use ( $dbw, $method, $row ) {
 			$dbw->upsert(
 				'online',
 				$row,
