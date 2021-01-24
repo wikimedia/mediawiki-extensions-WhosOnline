@@ -16,7 +16,10 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		parent::__construct( 'WhosOnline' );
 	}
 
-	// get list of logged-in users being online
+	/**
+	 * get list of logged-in users being online
+	 * @return int
+	 */
 	protected function getAnonsOnline() {
 		$dbr = wfGetDB( DB_REPLICA );
 
@@ -32,6 +35,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		return $guests;
 	}
 
+	/** @inheritDoc */
 	public function execute( $para ) {
 		global $wgWhosOnlineTimeout;
 

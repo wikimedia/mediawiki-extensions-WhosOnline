@@ -10,6 +10,7 @@ class WhosOnlineHooks {
 	 * @param OutputPage &$out
 	 * @param Skin &$skin
 	 * @throws \ConfigException
+	 * @return true|void
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		// don't write to the DB if the DB is read-only

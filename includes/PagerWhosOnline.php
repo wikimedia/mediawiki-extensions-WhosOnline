@@ -17,6 +17,7 @@ class PagerWhosOnline extends IndexPager {
 		$this->mLimit = $this->mDefaultLimit;
 	}
 
+	/** @inheritDoc */
 	function getQueryInfo() {
 		global $wgWhosOnlineShowAnons;
 
@@ -33,7 +34,10 @@ class PagerWhosOnline extends IndexPager {
 		];
 	}
 
-	// use classical LIMIT/OFFSET instead of sorting by table key
+	/**
+	 * use classical LIMIT/OFFSET instead of sorting by table key
+	 * @inheritDoc
+	 */
 	function reallyDoQuery( $offset, $limit, $descending ) {
 		$info = $this->getQueryInfo();
 		$tables = $info['tables'];
@@ -49,10 +53,12 @@ class PagerWhosOnline extends IndexPager {
 		return new ResultWrapper( $this->mDb, $res );
 	}
 
+	/** @inheritDoc */
 	function getIndexField() {
 		return 'username'; // dummy
 	}
 
+	/** @inheritDoc */
 	function formatRow( $row ) {
 		global $wgWhosOnlineShowRealName;
 
@@ -71,7 +77,9 @@ class PagerWhosOnline extends IndexPager {
 			htmlspecialchars( $name, ENT_QUOTES ) . '</a></li>';
 	}
 
-	// extra methods
+	/**
+	 * @return int
+	 */
 	function countUsersOnline() {
 		$row = $this->mDb->selectRow(
 			'online',
@@ -85,6 +93,7 @@ class PagerWhosOnline extends IndexPager {
 		return $users;
 	}
 
+	/** @inheritDoc */
 	function getNavigationBar() {
 		return $this->buildPrevNextNavigation(
 			SpecialPage::getTitleFor( 'WhosOnline' ),
