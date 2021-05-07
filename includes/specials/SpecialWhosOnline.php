@@ -44,7 +44,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 			$timeout = $wgWhosOnlineTimeout;
 		}
 
-		$db = wfGetDB( DB_MASTER );
+		$db = wfGetDB( DB_PRIMARY );
 		$old = wfTimestamp( TS_MW, time() - $timeout );
 		$db->delete( 'online', [ 'timestamp < "' . $old . '"' ], __METHOD__ );
 

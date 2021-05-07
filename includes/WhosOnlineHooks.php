@@ -19,7 +19,7 @@ class WhosOnlineHooks {
 		}
 
 		// write to DB (use master)
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$now = gmdate( 'YmdHis', time() );
 
 		$user = $out->getUser();
@@ -31,7 +31,7 @@ class WhosOnlineHooks {
 		];
 
 		$method = __METHOD__;
-		$dbw->onTransactionCommitOrIdle( function () use ( $dbw, $method, $row ) {
+		$dbw->onTransactionCommitOrIdle( static function () use ( $dbw, $method, $row ) {
 			$dbw->upsert(
 				'online',
 				$row,
