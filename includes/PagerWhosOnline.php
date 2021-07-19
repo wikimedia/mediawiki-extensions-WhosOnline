@@ -48,9 +48,7 @@ class PagerWhosOnline extends IndexPager {
 		$options['LIMIT']  = intval( $limit );
 		$options['OFFSET'] = intval( $offset );
 
-		$res = $this->mDb->select( $tables, $fields, $conds, __METHOD__, $options );
-
-		return new ResultWrapper( $this->mDb, $res );
+		return $this->mDb->select( $tables, $fields, $conds, __METHOD__, $options );
 	}
 
 	/** @inheritDoc */
