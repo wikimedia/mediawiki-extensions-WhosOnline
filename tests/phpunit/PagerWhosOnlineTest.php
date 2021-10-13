@@ -4,7 +4,7 @@
  * @covers PagerWhosOnline
  * @group Database
  */
-class PagerWhosOnlineTest extends MediaWikiTestCase {
+class PagerWhosOnlineTest extends MediaWikiIntegrationTestCase {
 
 	public function testGetNavigationBar() {
 		$pager = new PagerWhosOnline();
