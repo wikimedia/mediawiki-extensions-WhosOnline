@@ -1,25 +1,55 @@
 {
 	"name": "WhosOnline",
-	"version": "1.7.2",
+	"version": "1.8.0",
 	"author": [
-		"Maciej Brencz"
+		"Maciej Brencz",
+		"Maciej Błaszkowski"
 	],
 	"license-name": "GPL-2.0-or-later",
 	"url": "https://www.mediawiki.org/wiki/Extension:WhosOnline",
 	"descriptionmsg": "whosonline-desc",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.35.3"
 	},
 	"config": {
-		"WhosOnlineShowAnons": false,
-		"WhosOnlineShowRealName": false,
-		"WhosOnlineTimeout": 3600
+		"WhosOnlinePerWiki": {
+			"value": true,
+			"path": false,
+			"description": "If true, only show records related to the current wiki. Set this to false if you run a wiki farm and you'd like to look up results on every wiki and display only one record for one user (the newest).",
+			"public": false
+		},
+		"WhosOnlineShowAnons": {
+			"value": false,
+			"path": false,
+			"description": "Show anonymous, unregistered users on Special:WhosOnline/on the output of the API query?",
+			"public": false
+		},
+		"WhosOnlineShowRealName": {
+			"value": false,
+			"path": false,
+			"description": "Show users' real names instead of their on-wiki user names in lists like on the Special:WhosOnline page or API query output?",
+			"public": false
+		},
+		"WhosOnlineTimeout": {
+			"value": 3600,
+			"path": false,
+			"description": "Seconds for how long to store data in cache, i.e. users who have been active within past this many seconds are considered to be online",
+			"public": false
+		}
 	},
 	"MessagesDirs": {
 		"WhosOnline": [
 			"i18n"
 		]
+	},
+	"APIListModules": {
+		"whosonline": {
+			"class": "ApiQueryWhosOnline",
+			"services": [
+				"MainWANObjectCache"
+			]
+		}
 	},
 	"SpecialPages": {
 		"WhosOnline": "SpecialWhosOnline"
@@ -28,6 +58,7 @@
 		"WhosOnlineAlias": "WhosOnline.alias.php"
 	},
 	"AutoloadClasses": {
+		"ApiQueryWhosOnline": "includes/api/ApiQueryWhosOnline.php",
 		"WhosOnlineHooks": "includes/WhosOnlineHooks.php",
 		"SpecialWhosOnline": "includes/specials/SpecialWhosOnline.php",
 		"PagerWhosOnline": "includes/PagerWhosOnline.php"
@@ -36,5 +67,5 @@
 		"BeforePageDisplay": "WhosOnlineHooks::onBeforePageDisplay",
 		"LoadExtensionSchemaUpdates": "WhosOnlineHooks::onLoadExtensionSchemaUpdates"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }

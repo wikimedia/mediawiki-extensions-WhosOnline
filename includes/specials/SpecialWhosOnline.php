@@ -17,7 +17,8 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 	}
 
 	/**
-	 * get list of logged-in users being online
+	 * Get the list of anonymous users being online
+	 *
 	 * @return int
 	 */
 	protected function getAnonsOnline() {
@@ -72,10 +73,17 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 
 		$body = $pager->getBody();
 
-		if ( $showNavigation ) {
+		// Checking for both to ensure that we don't show the useless navigation
+		// stuff when $body is empty, i.e. no registered users are online
+		if ( $showNavigation && $body ) {
 			$this->getOutput()->addHTML( $pager->getNavigationBar() );
 		}
-
-		$this->getOutput()->addHTML( '<ul>' . $body . '</ul>' );
+		if ( $body ) {
+			$this->getOutput()->addHTML( '<ul>' . $body . '</ul>' );
+		} else {
+			// Nothing to display, hmm? Well, no point in continuing further, then...
+			// Just get us out of here.
+			$this->getOutput()->addHTML( $this->msg( 'specialpage-empty' )->parse() );
+		}
 	}
 }
