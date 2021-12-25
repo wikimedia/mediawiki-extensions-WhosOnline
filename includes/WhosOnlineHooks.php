@@ -2,6 +2,9 @@
 /**
  * @file
  */
+
+use MediaWiki\MediaWikiServices;
+
 class WhosOnlineHooks {
 
 	/**
@@ -14,7 +17,7 @@ class WhosOnlineHooks {
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		// don't write to the DB if the DB is read-only
-		if ( wfReadOnly() ) {
+		if ( MediaWikiServices::getInstance()->getReadOnlyMode()->isReadOnly() ) {
 			return true;
 		}
 
