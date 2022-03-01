@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chaduvari",
 			"Veeven"
 		]
 	},
 	"whosonline": "ఆన్&zwnj;లైన్లో ఎవరున్నారు",
-	"whosonline-desc": "ప్రస్తుతం ఆన్‌లైనులో ఉన్న ప్రవేశించిన మరియు అజ్ఞాత వాడుకరుల [[Special:WhosOnline|జాబితా]]ని చూపిస్తుంది"
+	"whosonline-desc": "ప్రస్తుతం [[Special:WhosOnline|ఆన్‌లైనులో ఉన్న]] లాగినైన వాడుకరులను, అజ్ఞాత వాడుకరులనూ చూపిస్తుంది"
 }
