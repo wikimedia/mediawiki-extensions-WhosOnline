@@ -5,5 +5,12 @@
 		]
 	},
 	"whosonline": "Used as title of [[Special:WhosOnline]]",
-	"whosonline-desc": "{{desc|name=WhosOnline|url=https://www.mediawiki.org/wiki/Extension:WhosOnline}}"
+	"whosonline-desc": "{{desc|name=WhosOnline|url=https://www.mediawiki.org/wiki/Extension:WhosOnline}}",
+	"apihelp-query+whosonline-example-1": "{{doc-apihelp-example|whosonline}}",
+	"apihelp-query+whosonline-example-2": "{{doc-apihelp-example|whosonline}}",
+	"apihelp-query+whosonline-example-3": "{{doc-apihelp-example|whosonline}}",
+	"apihelp-query+whosonline-description": "{{doc-apihelp-description|whosonline}}",
+	"apihelp-query+whosonline-summary": "{{doc-apihelp-summary|whosonline}}",
+	"apihelp-query+whosonline-param-limit": "{{doc-apihelp-param|whosonline|limit}}",
+	"apihelp-query+whosonline-param-offset": "{{doc-apihelp-param|whosonline|offset}}"
 }
