@@ -1,10 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"Gomoko",
 			"Grondin",
 			"PieRRoMaN"
 		]
 	},
 	"whosonline": "Qui est en ligne",
-	"whosonline-desc": "Affiche [[Special:WhosOnline|une liste]] des utilisateurs connectés ou anonymes actuellement en ligne"
+	"whosonline-desc": "Affiche [[Special:WhosOnline|une liste]] des utilisateurs connectés ou anonymes actuellement en ligne",
+	"apihelp-query+whosonline-example-1": "Lister tous les utilisateurs inscrits qui sont actuellement connectés",
+	"apihelp-query+whosonline-example-2": "Lister cinq utilisateurs inscrits qui sont actuellement connectés",
+	"apihelp-query+whosonline-example-3": "Lister cinq utilisateurs inscrits qui sont actuellement connectés, en sautant les quinze premières entrées",
+	"apihelp-query+whosonline-description": "Obtenir la liste des utilisateurs actuellement connectés",
+	"apihelp-query+whosonline-summary": "Obtenir la liste des utilisateurs actuellement connectés",
+	"apihelp-query+whosonline-param-limit": "Limiter le nombre d’utilisateurs renvoyés",
+	"apihelp-query+whosonline-param-offset": "Décalage de la liste d’utilisateurs renvoyée"
 }
