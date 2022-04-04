@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pasjoesscc"
+		]
+	},
+	"apihelp-query+whosonline-example-1": "Depụta ojiarụ niile ndị nọ n'ikuku ugbu a",
+	"apihelp-query+whosonline-example-2": "Depụta aha ndị njiarụ e debara aha ha ndị n'ikuku ugbu a",
+	"apihelp-query+whosonline-example-3": "Gụpụta ojieme ise e debara edeba ndị nọ n'ikuku, mafee ntinye iri na ise mbụ",
+	"apihelp-query+whosonline-description": "Weta aha ndị njiarụ nọ n'ikuku ugbu a",
+	"apihelp-query+whosonline-summary": "Weta aha ndị njiarụ nọ níkuku ugbu a.",
+	"apihelp-query+whosonline-param-limit": "Belata ọnụịọgụ ndị njiarịụ e nweghachitara",
+	"apihelp-query+whosonline-param-offset": "Mwezụga nke ndepụta ndị ojiarụ"
+}
