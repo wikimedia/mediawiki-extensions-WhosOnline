@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"S.Örvarr.S"
+			"S.Örvarr.S",
+			"LoveIceLang"
 		]
 	},
-	"whosonline": "Hver er tengdur",
+	"whosonline": "Hver er tengd(ur)",
 	"whosonline-desc": "Sýna [[Special:WhosOnline|lista]] yfir innskráða og óþekkta notendur sem eru tengdir"
 }
