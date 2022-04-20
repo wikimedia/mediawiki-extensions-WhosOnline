@@ -53,7 +53,8 @@ class PagerWhosOnline extends IndexPager {
 
 	/** @inheritDoc */
 	function getIndexField() {
-		return 'username'; // dummy
+		// dummy
+		return 'username';
 	}
 
 	/** @inheritDoc */
@@ -98,7 +99,8 @@ class PagerWhosOnline extends IndexPager {
 			$this->mOffset,
 			$this->mLimit,
 			[],
-			$this->countUsersOnline() < ( $this->mLimit + (int)$this->mOffset ) // show next link
+			// show next link
+			$this->countUsersOnline() < ( $this->mLimit + (int)$this->mOffset )
 		);
 	}
 }
