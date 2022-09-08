@@ -18,19 +18,20 @@ class WhosOnlineHooks {
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		global $wgWhosOnlineTimeout;
 
+		$services = MediaWikiServices::getInstance();
 		// don't write to the DB if the DB is read-only
-		if ( MediaWikiServices::getInstance()->getReadOnlyMode()->isReadOnly() ) {
+		if ( $services->getReadOnlyMode()->isReadOnly() ) {
 			return true;
 		}
 
 		$user = $out->getUser();
-		$lastVisit = $user->getOption( 'LastVisit' );
+		$userOptionsManager = $services->getUserOptionsManager();
+		$lastVisit = $userOptionsManager->getOption( $user, 'LastVisit' );
 		$currentTime = wfTimestamp( TS_UNIX );
 		if ( empty( $lastVisit ) || $currentTime - $lastVisit > $wgWhosOnlineTimeout ) {
-			$services = MediaWikiServices::getInstance();
 
 			if ( !$user->isAnon() ) {
-				$services->getUserOptionsManager()->setOption( $user, 'LastVisit', $currentTime );
+				$userOptionsManager->setOption( $user, 'LastVisit', $currentTime );
 			}
 
 			// write to DB (use master)
