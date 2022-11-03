@@ -5,5 +5,12 @@
 		]
 	},
 	"whosonline": "من موجود",
-	"whosonline-desc": "يعرض [[Special:WhosOnline|قائمة]] للمستخدمين المسجلين والمجهولين الموجودين حاليا على الشبكة"
+	"whosonline-desc": "يعرض [[Special:WhosOnline|قائمة]] للمستخدمين المسجلين والمجهولين الموجودين حاليا على الشبكة",
+	"apihelp-query+whosonline-example-1": "قائمة بجميع المستخدمين المسجلين المتصلين حاليا",
+	"apihelp-query+whosonline-example-2": "قائمة 5 الأعضاء المسجلين المتصلين حاليا",
+	"apihelp-query+whosonline-example-3": "قائمة 5 مستخدمين مسجلين متصلين حاليًا ، متخطين أول 15 إدخالاً",
+	"apihelp-query+whosonline-description": "احصل على قائمة المستخدمين المتصلين حاليا",
+	"apihelp-query+whosonline-summary": "احصل على قائمة المستخدمين المتصلين حاليا",
+	"apihelp-query+whosonline-param-limit": "الحد من عدد المستخدمين العائدين",
+	"apihelp-query+whosonline-param-offset": "إزاحة قائمة المستخدمين التي تم إرجاعها"
 }
