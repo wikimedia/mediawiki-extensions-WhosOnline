@@ -5,5 +5,12 @@
 		]
 	},
 	"whosonline": "Qui es in linea",
-	"whosonline-desc": "Monstra [[Special:WhosOnline|un lista]] de usatores authenticate e anonyme actualmente in linea"
+	"whosonline-desc": "Monstra [[Special:WhosOnline|un lista]] de usatores authenticate e anonyme actualmente in linea",
+	"apihelp-query+whosonline-example-1": "Listar tote le usatores registrate que es actualmente in linea",
+	"apihelp-query+whosonline-example-2": "Listar 5 usatores registrate que es actualmente in linea",
+	"apihelp-query+whosonline-example-3": "Listar 5 usatores registrate que es actualmente in linea, saltante le prime 15 entratas",
+	"apihelp-query+whosonline-description": "Obtener le lista de usatores actualmente in linea",
+	"apihelp-query+whosonline-summary": "Obtener le lista de usatores actualmente in linea",
+	"apihelp-query+whosonline-param-limit": "Limitar le numero de usatores restituite",
+	"apihelp-query+whosonline-param-offset": "Position in le lista de usatores restituite"
 }
