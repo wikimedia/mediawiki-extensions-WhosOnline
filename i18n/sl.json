@@ -6,5 +6,12 @@
 		]
 	},
 	"whosonline": "Kdo je na strani",
-	"whosonline-desc": "Prikaže [[Special:WhosOnline|seznam]] prijavljenih in anonimnih uporabnikov, ki so trenutno na strani"
+	"whosonline-desc": "Prikaže [[Special:WhosOnline|seznam]] prijavljenih in anonimnih uporabnikov, ki so trenutno na spletnem mestu",
+	"apihelp-query+whosonline-example-1": "Prikaže seznam vseh uporabnikov, ki so trenutno na spletnem mestu",
+	"apihelp-query+whosonline-example-2": "Prikaže seznam 5 registriranih uporabnikov, ki so trenutno na spletnem mestu",
+	"apihelp-query+whosonline-example-3": "Prikaže seznam 5 registriranih uporabnikov, ki so trenutno na spletnem mestu, pri čemer preskoči prvih 15 vnosov",
+	"apihelp-query+whosonline-description": "Pridobi seznam uporabnikov, ki so trenutno na spletnem mestu",
+	"apihelp-query+whosonline-summary": "Pridobi seznam uporabnikov, ki so trenutno na spletnem mestu",
+	"apihelp-query+whosonline-param-limit": "Omejitev števila vrnjenih uporabnikov",
+	"apihelp-query+whosonline-param-offset": "Odmik vrnjenega seznama uporabnikov"
 }
