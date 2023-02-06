@@ -10,12 +10,13 @@ class PagerWhosOnlineTest extends MediaWikiIntegrationTestCase {
 		$pager = new PagerWhosOnline();
 		$html = $pager->getNavigationBar();
 
-		$this->assertStringStartsWith( 'View (previous', $html );
+		// @phpcs:ignore Generic.Files.LineLength.TooLong
+		$this->assertStringStartsWith( '<div class="mw-pager-navigation-bar">View (<span class="mw-prevlink">previous', $html );
 
 		preg_match_all( '!<a.*?</a>!', $html, $m, PREG_PATTERN_ORDER );
 		$links = $m[0];
 
-		$nums = [ 20, 50, 100, 250, 500 ];
+		$nums = [ 20, 100, 250, 500 ];
 		$i = 0;
 		foreach ( $links as $a ) {
 			$this->assertStringContainsString( 'Special:WhosOnline', $a );
