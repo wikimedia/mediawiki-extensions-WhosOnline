@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"whosonline": "Ko je na mreži",
+	"whosonline-desc": "Prikazuje [[Special:WhosOnline|spisak]] prijavljenih i anonimnih korisnika koji su trenutno na mreži"
+}
