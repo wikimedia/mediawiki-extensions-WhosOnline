@@ -283,11 +283,6 @@ $specialPageAliases['tr'] = [
 	'WhosOnline' => [ 'KimÇevrimiçi' ],
 ];
 
-/** Chinese (中文) */
-$specialPageAliases['zh'] = [
-	'WhosOnline' => [ '在线列表', '線上列表', '線上清單' ],
-];
-
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = [
 	'WhosOnline' => [ '在线列表' ],
@@ -295,5 +290,5 @@ $specialPageAliases['zh-hans'] = [
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = [
-	'WhosOnline' => [ '誰在線上' ],
+	'WhosOnline' => [ '線上清單', '線上列表', '誰在線上' ],
 ];
