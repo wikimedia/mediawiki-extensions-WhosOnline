@@ -8,6 +8,5 @@
 	"whosonline": "Ποιοι είναι συνδεδεμένοι",
 	"whosonline-desc": "Εμφανίζει [[Special:WhosOnline|μια λίστα]] με τους συνδεδεμένους και ανώνυμους χρήστες που είναι οn-line αυτή τη στιγμή",
 	"apihelp-query+whosonline-example-1": "Λίστα με όλους τους συνδεδεμένους χρήστες",
-	"apihelp-query+whosonline-description": "Λάβετε τη λίστα με τους συνδεδεμένους χρήστες",
 	"apihelp-query+whosonline-summary": "Λάβετε τη λίστα με τους συνδεδεμένους χρήστες"
 }

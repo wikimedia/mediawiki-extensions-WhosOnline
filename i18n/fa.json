@@ -10,7 +10,6 @@
 	"whosonline-desc": "نمایش [[Special:WhosOnline|فهرست]] ورود به سامانه و آی‌پی‌های برخط",
 	"apihelp-query+whosonline-example-1": "تمام کاربران ثبت‌نام کرده‌ای که اکنون آنلاین هستند را فهرست کن",
 	"apihelp-query+whosonline-example-2": "۵ تا از کاربران ثبت‌نام کرده که اکنون آنلاین هستند را فهرست کن",
-	"apihelp-query+whosonline-description": "فهرست کاربرانی که اکنون آنلاین هستند را بگیر",
 	"apihelp-query+whosonline-summary": "فهرست کاربرانی که اکنون آنلاین هستند را بگیر",
 	"apihelp-query+whosonline-param-limit": "تعداد کاربران برگردانده شده را محدود کن"
 }

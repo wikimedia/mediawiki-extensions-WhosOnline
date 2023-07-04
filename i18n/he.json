@@ -10,7 +10,6 @@
 	"apihelp-query+whosonline-example-1": "הצגת רשימה של המשתמשים הרשומים המחוברים לאתר כעת",
 	"apihelp-query+whosonline-example-2": "הצגת רשימה של 5 משתמשים רשומים המחוברים לאתר כעת",
 	"apihelp-query+whosonline-example-3": "הצגת רשימה של 5 משתמשים רשומים המחוברים לאתר כעת, בדילוג על 15 הרשומות הראשונות",
-	"apihelp-query+whosonline-description": "קבלת רשימת משתמשים רשומים המחוברים לאתר כעת",
 	"apihelp-query+whosonline-summary": "קבלת רשימת משתמשים רשומים המחוברים לאתר כעת",
 	"apihelp-query+whosonline-param-limit": "הגבלת מספר המשתמשים שיוחזרו",
 	"apihelp-query+whosonline-param-offset": "היסט רשימת המשתמשים שיוחזרו"

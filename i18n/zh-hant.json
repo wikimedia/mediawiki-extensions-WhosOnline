@@ -13,7 +13,6 @@
 	"apihelp-query+whosonline-example-1": "列出所有目前線上的已註冊使用者",
 	"apihelp-query+whosonline-example-2": "列出 5 個目前線上的已註冊使用者",
 	"apihelp-query+whosonline-example-3": "列出 5 個目前線上的已註冊使用者，略過前 15 個項",
-	"apihelp-query+whosonline-description": "取得目前線上使用者的清單",
 	"apihelp-query+whosonline-summary": "取得目前線上使用者的清單",
 	"apihelp-query+whosonline-param-limit": "限制回傳的使用者數量",
 	"apihelp-query+whosonline-param-offset": "回傳使用者清單的偏移量"

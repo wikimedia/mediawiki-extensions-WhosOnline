@@ -9,7 +9,6 @@
 	"apihelp-query+whosonline-example-1": "Дај список на сите зачленети корисници што се моментално на линија",
 	"apihelp-query+whosonline-example-2": "Дај список на 5 корисници што моментално се на линија",
 	"apihelp-query+whosonline-example-3": "Дај список на 5 корисници што моментално се на линија, прескокнувајќи ги првите 15 ставки",
-	"apihelp-query+whosonline-description": "Дај список на корисници што моментално се на линија",
 	"apihelp-query+whosonline-summary": "Дај список на корисници што моментално се на линија",
 	"apihelp-query+whosonline-param-limit": "Ограничи го бројот на корисници во исходот",
 	"apihelp-query+whosonline-param-offset": "Бројно отстапување на корисниците во исходот"

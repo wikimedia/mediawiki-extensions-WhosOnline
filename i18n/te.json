@@ -10,7 +10,6 @@
 	"apihelp-query+whosonline-example-1": "ప్రస్తుతం ఆన్‌లైనులో ఉన్న నమోదైన వాడుకరులందరితో ఒక జాబితా చెయ్యి",
 	"apihelp-query+whosonline-example-2": "ప్రస్తుతం ఆన్‌లైనులో ఉన్న 5 గురు వాడుకరులతో ఒక జాబితా చెయ్యి",
 	"apihelp-query+whosonline-example-3": "మొదటి 15 ఎంట్రీలను పక్కనబెట్టి, ప్రస్తుతం ఆన్‌లైనులో ఉన్న 5 గురు నమోదైన వాడుకరులతో ఒక జాబితా చెయ్యి",
-	"apihelp-query+whosonline-description": "ఆన్‌లైనులో ఉన్న వాడుకరుల జాబితా తీసుకురా",
 	"apihelp-query+whosonline-summary": "ప్రస్తుతం ఆన్‌లైనులో ఉన్న వాడుకరులతో ఒక జాబితా చెయ్యి",
 	"apihelp-query+whosonline-param-limit": "మళ్ళీ వచ్చిన వాడుకరుల సంఖ్యను పరిమితం చెయ్యి"
 }

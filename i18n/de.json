@@ -10,7 +10,6 @@
 	"apihelp-query+whosonline-example-1": "Liste aller registrierten Benutzer, die derzeit online sind",
 	"apihelp-query+whosonline-example-2": "Liste der 5 registrierten Benutzer, die derzeit online sind",
 	"apihelp-query+whosonline-example-3": "Liste der 5 registrierten Benutzer, die derzeit online sind, wobei die ersten 15 Einträge übersprungen werden",
-	"apihelp-query+whosonline-description": "Abrufen der Liste der Benutzer, die derzeit online sind",
 	"apihelp-query+whosonline-summary": "Abrufen der Liste der Benutzer, die derzeit online sind",
 	"apihelp-query+whosonline-param-limit": "Begrenzung der Anzahl der zurückgegebenen Benutzer",
 	"apihelp-query+whosonline-param-offset": "Offset der zurückgegebenen Liste der Benutzer"

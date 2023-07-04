@@ -10,7 +10,6 @@
 	"apihelp-query+whosonline-example-1": "Listar todos os utilizadores registados que estão ligados neste momento",
 	"apihelp-query+whosonline-example-2": "Listar 5 utilizadores registados que estão ligados neste momento",
 	"apihelp-query+whosonline-example-3": "Listar 5 utilizadores registados que estão ligados neste momento, saltando as primeiras 15 entradas",
-	"apihelp-query+whosonline-description": "Obter a lista de utilizadores que estão ligados neste momento",
 	"apihelp-query+whosonline-summary": "Obter a lista de utilizadores que estão ligados neste momento",
 	"apihelp-query+whosonline-param-limit": "Limitar o número de utilizadores devolvidos",
 	"apihelp-query+whosonline-param-offset": "Posição na lista de utilizadores devolvida"

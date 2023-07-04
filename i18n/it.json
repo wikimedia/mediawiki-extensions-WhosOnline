@@ -10,6 +10,5 @@
 	"apihelp-query+whosonline-example-1": "Elenca tutti gli utenti registrati che sono attualmente online",
 	"apihelp-query+whosonline-example-2": "Elenca 5 utenti registrati che sono attualmente online",
 	"apihelp-query+whosonline-example-3": "Elenca 5 utenti registrati che sono attualmente online, saltando le prime 15 voci.",
-	"apihelp-query+whosonline-description": "Ottieni l'elenco degli utenti attualmente online",
 	"apihelp-query+whosonline-summary": "Ottieni l'elenco degli utenti attualmente online"
 }
