@@ -5,5 +5,11 @@
 		]
 	},
 	"whosonline": "Hvem er logget på",
-	"whosonline-desc": "Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til"
+	"whosonline-desc": "Viser [[Special:WhosOnline|en liste]] over innloggede og anonyme brukere som er koblet til",
+	"apihelp-query+whosonline-example-1": "List opp alle registrerte brukere som er online for øyeblikket.",
+	"apihelp-query+whosonline-example-2": "List opp fem registrerte brukere som er online for øyeblikket",
+	"apihelp-query+whosonline-example-3": "List opp fem registrerte brukere som er online for øyeblikket, men hopp over de første 15 oppføringene",
+	"apihelp-query+whosonline-summary": "Hent lista over brukere som er online for øyeblikket",
+	"apihelp-query+whosonline-param-limit": "Begrens antall returnerte brukere",
+	"apihelp-query+whosonline-param-offset": "Antall brukere som skal hoppes over i den returnerte lista"
 }
