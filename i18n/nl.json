@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"whosonline": "Wie is er online",
-	"whosonline-desc": "[[Special:WhosOnline|Een lijst]] van actieve aangemelde en anonieme gebruikers"
+	"whosonline-desc": "[[Special:WhosOnline|Een lijst]] van actieve aangemelde en anonieme gebruikers",
+	"apihelp-query+whosonline-example-1": "Geeft een lijst weer met alle geregistreerde gebruikers die nu online zijn",
+	"apihelp-query+whosonline-example-2": "Maakt een lijst met 5 geregistreerde gebruikers die momenteel online zijn",
+	"apihelp-query+whosonline-example-3": "Maakt een lijst met 5 geregistreerde gebruikers die momenteel online zijn met weglating van de eerste 15 vermeldingen",
+	"apihelp-query+whosonline-summary": "De lijst opvragen van de gebruikers die momenteel online zijn",
+	"apihelp-query+whosonline-param-limit": "Het aantal teruggestuurde gebruikers beperken",
+	"apihelp-query+whosonline-param-offset": "Beginpunt van de teruggestuurde lijst met gebruikers"
 }
