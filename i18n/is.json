@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"LoveIceLang",
-			"S.Örvarr.S"
+			"S.Örvarr.S",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"whosonline": "Hver er tengd(ur)",
-	"whosonline-desc": "Sýna [[Special:WhosOnline|lista]] yfir innskráða og óþekkta notendur sem eru tengdir"
+	"whosonline-desc": "Birtir [[Special:WhosOnline|lista]] yfir innskráða og nafnlausa notendur sem eru eins og er nettengdir"
 }
