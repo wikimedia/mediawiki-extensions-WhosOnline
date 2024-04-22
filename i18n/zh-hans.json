@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"沈澄心"
 		]
 	},
 	"whosonline": "在线用户",
-	"whosonline-desc": "显示实时在线的登录用户和匿名用户的[[Special:WhosOnline|列表]]"
+	"whosonline-desc": "显示实时在线的登录用户和匿名用户的[[Special:WhosOnline|列表]]",
+	"apihelp-query+whosonline-example-1": "列出当前在线的所有注册用户"
 }
