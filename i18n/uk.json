@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата"
+			"Ата",
+			"Ignatgg"
 		]
 	},
 	"whosonline": "Хто онлайн",
-	"whosonline-desc": "Показує [[Special:WhosOnline|список]] залогованих користувачів та анонімів онлайн"
+	"whosonline-desc": "Показує [[Special:WhosOnline|список]] залогованих користувачів та анонімів онлайн",
+	"apihelp-query+whosonline-example-1": "Перерахувати всіх зареєстрованих користувачів, які зараз онлайн",
+	"apihelp-query+whosonline-example-2": "Перелічіть 5 зареєстрованих користувачів, які зараз онлайн",
+	"apihelp-query+whosonline-example-3": "Перелічіть 5 зареєстрованих користувачів, які зараз онлайн, пропустивши перші 15 записів",
+	"apihelp-query+whosonline-summary": "Отримайте список користувачів, які зараз онлайн",
+	"apihelp-query+whosonline-param-limit": "Обмежте кількість користувачів, які повернулися",
+	"apihelp-query+whosonline-param-offset": "Зміщення повернутого списку користувачів"
 }
