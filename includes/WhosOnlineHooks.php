@@ -35,7 +35,7 @@ class WhosOnlineHooks {
 			}
 
 			// write to DB (use master)
-			$dbw = wfGetDB( DB_PRIMARY );
+			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 			$now = gmdate( 'YmdHis', time() );
 
 			// row to insert to table

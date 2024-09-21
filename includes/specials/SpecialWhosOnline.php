@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * WhosOnline extension - creates a list of logged-in users & anons currently online
  * The list can be viewed at Special:WhosOnline
@@ -22,7 +25,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 	 * @return int
 	 */
 	protected function getAnonsOnline() {
-		$dbr = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 
 		$row = $dbr->selectRow(
 			'online',
@@ -45,7 +48,7 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 			$timeout = $wgWhosOnlineTimeout;
 		}
 
-		$db = wfGetDB( DB_PRIMARY );
+		$db = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$old = wfTimestamp( TS_MW, time() - $timeout );
 		$db->delete( 'online', [ 'timestamp < "' . $old . '"' ], __METHOD__ );
 
