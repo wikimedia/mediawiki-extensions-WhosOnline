@@ -5,6 +5,12 @@
 			"Toliño"
 		]
 	},
-	"whosonline": "Quen está conectado",
-	"whosonline-desc": "Amosa [[Special:WhosOnline|unha lista]] dos usuarios rexistrados e anónimos que están actualmente en liña"
+	"whosonline": "Quen está en liña",
+	"whosonline-desc": "Amosa [[Special:WhosOnline|unha lista]] dos usuarios conectados e anónimos que están actualmente en liña",
+	"apihelp-query+whosonline-example-1": "Listar todos os usuarios rexistrados que están actualmente en liña",
+	"apihelp-query+whosonline-example-2": "Listar 5 usuarios rexistrados que estean actualmente en liña",
+	"apihelp-query+whosonline-example-3": "Listar 5 usuarios rexistrados que estean actualmente en liña, omitindo as 15 primeiras entradas",
+	"apihelp-query+whosonline-summary": "Obter a lista de usuarios actualmente en liña",
+	"apihelp-query+whosonline-param-limit": "Limitar o número de usuarios devoltos",
+	"apihelp-query+whosonline-param-offset": "Desprazamento da lista de usuarios devolta"
 }
