@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Title\Title;
+
 /**
  * WhosOnline extension - creates a list of logged-in users & anons currently online
  * The list can be viewed at Special:WhosOnline
