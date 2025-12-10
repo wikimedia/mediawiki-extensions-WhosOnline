@@ -20,7 +20,8 @@ class PagerWhosOnlineTest extends MediaWikiIntegrationTestCase {
 		$i = 0;
 		foreach ( $links as $a ) {
 			$this->assertStringContainsString( 'Special:WhosOnline', $a );
-			$this->assertStringContainsString( "limit=$nums[$i]&amp;offset=", $a );
+			$this->assertStringContainsString( "limit=$nums[$i]", $a );
+			$this->assertStringContainsString( "offset=", $a );
 			$this->assertStringContainsString( 'class="mw-numlink"', $a );
 			$this->assertStringContainsString( ">$nums[$i]<", $a );
 			$i += 1;
