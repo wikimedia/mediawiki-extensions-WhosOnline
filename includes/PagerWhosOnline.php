@@ -17,7 +17,11 @@ use MediaWiki\Title\Title;
 class PagerWhosOnline extends IndexPager {
 	function __construct() {
 		parent::__construct();
-		$this->mLimit = $this->mDefaultLimit;
+	}
+
+	/** @inheritDoc */
+	function getTitle() {
+		return SpecialPage::getTitleFor( 'WhosOnline' );
 	}
 
 	/** @inheritDoc */
@@ -96,14 +100,41 @@ class PagerWhosOnline extends IndexPager {
 	}
 
 	/** @inheritDoc */
+	public function getPagingQueries() {
+		$urlLimit = $this->mLimit == $this->mDefaultLimit ? null : $this->mLimit;
+		$limit = (int)$this->mLimit;
+		$offset = (int)$this->mOffset;
+		$result = [
+			'prev' => [
+				'offset' => (string)max( $offset - $limit, 0 ),
+				'limit' => $urlLimit,
+			],
+			'next' => [
+				'offset' => $offset + $limit,
+				'limit' => $urlLimit,
+			],
+		];
+		if ( (int)$this->mOffset === 0 ) {
+			$result['prev'] = false;
+		}
+		$atend = $this->countUsersOnline() < ( (int)$this->mLimit + (int)$this->mOffset );
+		if ( $atend ) {
+			$result['next'] = false;
+		}
+		$result['first'] = null;
+		$result['last'] = null;
+
+		return $result;
+	}
+
+	/** @inheritDoc */
 	function getNavigationBar() {
-		return $this->buildPrevNextNavigation(
-			SpecialPage::getTitleFor( 'WhosOnline' ),
-			$this->mOffset,
-			$this->mLimit,
-			[],
-			// show next link
-			$this->countUsersOnline() < ( $this->mLimit + (int)$this->mOffset )
-		);
+		$navBuilder = $this->getNavigationBuilder();
+		$navBuilder
+			->setPrevTooltipMsg( 'prevn-title' )
+			->setNextTooltipMsg( 'nextn-title' )
+			->setLimitTooltipMsg( 'shown-title' );
+
+		return $navBuilder->getHtml();
 	}
 }
