@@ -30,9 +30,12 @@ class WhosOnlineHooks {
 		$currentTime = wfTimestamp( TS_UNIX );
 		if ( empty( $lastVisit ) || $currentTime - $lastVisit > $wgWhosOnlineTimeout ) {
 
-			if ( !$user->isAnon() ) {
-				$userOptionsManager->setOption( $user, 'LastVisit', $currentTime );
+			// Only track authenticated users
+			if ( $user->isAnon() ) {
+				return true;
 			}
+
+			$userOptionsManager->setOption( $user, 'LastVisit', $currentTime );
 
 			// write to DB (use master)
 			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );

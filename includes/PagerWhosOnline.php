@@ -26,8 +26,6 @@ class PagerWhosOnline extends IndexPager {
 
 	/** @inheritDoc */
 	function getQueryInfo() {
-		global $wgWhosOnlineShowAnons;
-
 		return [
 			'tables'  => [ 'online' ],
 			'fields'  => [ 'username' ],
@@ -35,9 +33,7 @@ class PagerWhosOnline extends IndexPager {
 				'ORDER BY' => 'timestamp DESC',
 				'GROUP BY' => 'username'
 			],
-			'conds'   => $wgWhosOnlineShowAnons
-					? []
-					: [ 'userid != 0' ]
+			'conds'   => [ 'userid != 0' ]
 		];
 	}
 

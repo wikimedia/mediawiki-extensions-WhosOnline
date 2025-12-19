@@ -19,26 +19,6 @@ class SpecialWhosOnline extends IncludableSpecialPage {
 		parent::__construct( 'WhosOnline' );
 	}
 
-	/**
-	 * Get the list of anonymous users being online
-	 *
-	 * @return int
-	 */
-	protected function getAnonsOnline() {
-		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
-
-		$row = $dbr->selectRow(
-			'online',
-			'COUNT(*) AS cnt',
-			'userid = 0',
-			__METHOD__,
-			'GROUP BY username'
-		);
-		$guests = (int)$row->cnt;
-
-		return $guests;
-	}
-
 	/** @inheritDoc */
 	public function execute( $para ) {
 		global $wgWhosOnlineTimeout;

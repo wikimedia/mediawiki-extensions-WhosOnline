@@ -19,12 +19,6 @@
 			"description": "If true, only show records related to the current wiki. Set this to false if you run a wiki farm and you'd like to look up results on every wiki and display only one record for one user (the newest).",
 			"public": false
 		},
-		"WhosOnlineShowAnons": {
-			"value": false,
-			"path": false,
-			"description": "Show anonymous, unregistered users on Special:WhosOnline/on the output of the API query?",
-			"public": false
-		},
 		"WhosOnlineShowRealName": {
 			"value": false,
 			"path": false,
