@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nvdtn19",
 			"Vinhtantran"
 		]
 	},
 	"whosonline": "Thành viên trực tuyến",
-	"whosonline-desc": "Hiển thị [[Special:WhosOnline|danh sách]] các thành viên đã đăng nhập lẫn vô danh hiện đang trực tuyến"
+	"whosonline-desc": "Hiển thị [[Special:WhosOnline|danh sách]] các thành viên đã và chưa đăng nhập hiện đang trực tuyến"
 }
