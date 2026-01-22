@@ -8,6 +8,6 @@
 	},
 	"whosonline": "Wien ass online",
 	"whosonline-desc": "Weist [[Special:WhosOnline|eng Lëscht]] vun den ageloggten an anonymme Benotzer, déi momentan online sinn",
-	"apihelp-query+whosonline-example-1": "Lëscht vun alle registréierte Benotzer déi elo online sinn",
+	"apihelp-query+whosonline-example-1": "Lëscht vun alle registréierte Benotzer, déi am Moment online sinn",
 	"apihelp-query+whosonline-summary": "Eng Lëscht vun de Benotzer kréien déi elo online sinn"
 }
