@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ellif",
+			"Tensama0415",
 			"ToePeu",
 			"Ykhwong",
 			"아라"
@@ -9,5 +10,10 @@
 	},
 	"whosonline": "접속한 사용자",
 	"whosonline-desc": "현재 접속 중인 로그인된 사용자와 익명 사용자의 [[Special:WhosOnline|목록]]을 보여줍니다.",
-	"apihelp-query+whosonline-param-limit": "복귀 사용자 수 제한"
+	"apihelp-query+whosonline-example-1": "현재 접속 중인 등록된 사용자를 모두 나열합니다",
+	"apihelp-query+whosonline-example-2": "현재 접속 중인 등록된 사용자를 5명 나열합니다",
+	"apihelp-query+whosonline-example-3": "현재 접속 중인 등록된 사용자를 15명을 건너뛴 뒤 5명을 나열합니다",
+	"apihelp-query+whosonline-summary": "현재 접속 중인 사용자의 목록을 가져옵니다",
+	"apihelp-query+whosonline-param-limit": "복귀 사용자 수 제한",
+	"apihelp-query+whosonline-param-offset": "반환된 사용자 목록의 오프셋"
 }
