@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Wizzard"
 		]
 	},
 	"whosonline": "Kto je online",
-	"whosonline-desc": "Zobrazuje [[Special:WhosOnline|zoznam]] prihlásených a anonymných používateľov, ktorí sú momentálne online"
+	"whosonline-desc": "Zobrazuje [[Special:WhosOnline|zoznam]] prihlásených a anonymných používateľov, ktorí sú momentálne online",
+	"apihelp-query+whosonline-example-1": "Vypísať všetkých registrovaných používateľov, ktorí sú práve online",
+	"apihelp-query+whosonline-example-2": "Vypísať 5 registrovaných používateľov, ktorí sú práve online",
+	"apihelp-query+whosonline-example-3": "Vypísať 5 registrovaných používateľov, ktorí sú práve online, s preskočením prvých 15 položiek",
+	"apihelp-query+whosonline-summary": "Získať zoznam používateľov, ktorí sú práve online",
+	"apihelp-query+whosonline-param-limit": "Obmedziť počet vrátených používateľov",
+	"apihelp-query+whosonline-param-offset": "Posun vo vrátenom zozname používateľov"
 }
